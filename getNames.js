@@ -9,4 +9,5 @@ fs.writeFile('C:\\Users\\Atila\\Desktop\\programacionez\\MatchupPickerForLoL\\da
                     if(err){ throw err };
                 });
 
+console.log("If false, champs after it are missing:", champions.includes("Pyke"))
 console.log("Content registered succesfully!")
