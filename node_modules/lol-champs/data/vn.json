@@ -1,0 +1,846 @@
+{
+  "type": "champion",
+  "version": "8.8.1",
+  "data": {
+    "MonkeyKing": {
+      "title": "Hầu Vương",
+      "id": 62,
+      "key": "MonkeyKing",
+      "name": "Ngộ Không"
+    },
+    "Jax": {
+      "title": "Bậc Thầy Vũ Khí",
+      "id": 24,
+      "key": "Jax",
+      "name": "Jax"
+    },
+    "Fiddlesticks": {
+      "title": "Sứ Giả Địa Ngục",
+      "id": 9,
+      "key": "Fiddlesticks",
+      "name": "Fiddlesticks"
+    },
+    "Shaco": {
+      "title": "Tên Hề Quỷ",
+      "id": 35,
+      "key": "Shaco",
+      "name": "Shaco"
+    },
+    "Warwick": {
+      "title": "Quái Thú Sổng Chuồng",
+      "id": 19,
+      "key": "Warwick",
+      "name": "Warwick"
+    },
+    "Xayah": {
+      "title": "Cô Nàng Nổi Loạn",
+      "id": 498,
+      "key": "Xayah",
+      "name": "Xayah"
+    },
+    "Nidalee": {
+      "title": "Nữ Thợ Săn Hóa Thú",
+      "id": 76,
+      "key": "Nidalee",
+      "name": "Nidalee"
+    },
+    "Zyra": {
+      "title": "Gai Nổi Loạn",
+      "id": 143,
+      "key": "Zyra",
+      "name": "Zyra"
+    },
+    "Kled": {
+      "title": "Kị Sĩ Cáu Kỉnh",
+      "id": 240,
+      "key": "Kled",
+      "name": "Kled"
+    },
+    "Brand": {
+      "title": "Thần Lửa",
+      "id": 63,
+      "key": "Brand",
+      "name": "Brand"
+    },
+    "Rammus": {
+      "title": "Tê Tê Gai",
+      "id": 33,
+      "key": "Rammus",
+      "name": "Rammus"
+    },
+    "Illaoi": {
+      "title": "Nữ Tu Thủy Thần",
+      "id": 420,
+      "key": "Illaoi",
+      "name": "Illaoi"
+    },
+    "Corki": {
+      "title": "Phi Công Quả Cảm",
+      "id": 42,
+      "key": "Corki",
+      "name": "Corki"
+    },
+    "Braum": {
+      "title": "Trái Tim của Freljord",
+      "id": 201,
+      "key": "Braum",
+      "name": "Braum"
+    },
+    "Darius": {
+      "title": "Đại Tướng Noxus",
+      "id": 122,
+      "key": "Darius",
+      "name": "Darius"
+    },
+    "Tryndamere": {
+      "title": "Bá Vương Man Di",
+      "id": 23,
+      "key": "Tryndamere",
+      "name": "Tryndamere"
+    },
+    "MissFortune": {
+      "title": "Thợ Săn Tiền Thưởng",
+      "id": 21,
+      "key": "MissFortune",
+      "name": "Miss Fortune"
+    },
+    "Yorick": {
+      "title": "Kẻ Dẫn Dắt Linh Hồn",
+      "id": 83,
+      "key": "Yorick",
+      "name": "Yorick"
+    },
+    "Xerath": {
+      "title": "Pháp Sư Thăng Hoa",
+      "id": 101,
+      "key": "Xerath",
+      "name": "Xerath"
+    },
+    "Sivir": {
+      "title": "Nữ Chúa Chiến Trường",
+      "id": 15,
+      "key": "Sivir",
+      "name": "Sivir"
+    },
+    "Riven": {
+      "title": "Kẻ Lưu Đày",
+      "id": 92,
+      "key": "Riven",
+      "name": "Riven"
+    },
+    "Orianna": {
+      "title": "Quý Cô Dây Cót",
+      "id": 61,
+      "key": "Orianna",
+      "name": "Orianna"
+    },
+    "Gangplank": {
+      "title": "Hiểm Họa Vùng Saltwater",
+      "id": 41,
+      "key": "Gangplank",
+      "name": "Gangplank"
+    },
+    "Malphite": {
+      "title": "Mảnh Vỡ Thiên Thạch",
+      "id": 54,
+      "key": "Malphite",
+      "name": "Malphite"
+    },
+    "Poppy": {
+      "title": "Người Giữ Búa",
+      "id": 78,
+      "key": "Poppy",
+      "name": "Poppy"
+    },
+    "Lissandra": {
+      "title": "Mụ Phù Thủy Băng",
+      "id": 127,
+      "key": "Lissandra",
+      "name": "Lissandra"
+    },
+    "Jayce": {
+      "title": "Người Bảo Hộ Mai Sau",
+      "id": 126,
+      "key": "Jayce",
+      "name": "Jayce"
+    },
+    "Nunu": {
+      "title": "Kị Sĩ Yeti",
+      "id": 20,
+      "key": "Nunu",
+      "name": "Nunu"
+    },
+    "Trundle": {
+      "title": "Vua Quỉ Khổng Lồ",
+      "id": 48,
+      "key": "Trundle",
+      "name": "Trundle"
+    },
+    "Karthus": {
+      "title": "Tiếng Ru Tử Thần",
+      "id": 30,
+      "key": "Karthus",
+      "name": "Karthus"
+    },
+    "Graves": {
+      "title": "Kẻ Ngoài Vòng Pháp Luật",
+      "id": 104,
+      "key": "Graves",
+      "name": "Graves"
+    },
+    "Zoe": {
+      "title": "Bậc Thầy Biến Ảo",
+      "id": 142,
+      "key": "Zoe",
+      "name": "Zoe"
+    },
+    "Gnar": {
+      "title": "Mắt Xích Thượng Cổ",
+      "id": 150,
+      "key": "Gnar",
+      "name": "Gnar"
+    },
+    "Lux": {
+      "title": "Tiểu Thư Ánh Sáng",
+      "id": 99,
+      "key": "Lux",
+      "name": "Lux"
+    },
+    "Shyvana": {
+      "title": "Long Nữ",
+      "id": 102,
+      "key": "Shyvana",
+      "name": "Shyvana"
+    },
+    "Renekton": {
+      "title": "Đồ Tể Sa Mạc",
+      "id": 58,
+      "key": "Renekton",
+      "name": "Renekton"
+    },
+    "Fiora": {
+      "title": "Nữ Kiếm Sư",
+      "id": 114,
+      "key": "Fiora",
+      "name": "Fiora"
+    },
+    "Jinx": {
+      "title": "Khẩu Pháo Nổi Loạn",
+      "id": 222,
+      "key": "Jinx",
+      "name": "Jinx"
+    },
+    "Kalista": {
+      "title": "Mũi Giáo Phục Hận",
+      "id": 429,
+      "key": "Kalista",
+      "name": "Kalista"
+    },
+    "Fizz": {
+      "title": "Chú Cá Tinh Nghịch",
+      "id": 105,
+      "key": "Fizz",
+      "name": "Fizz"
+    },
+    "Kassadin": {
+      "title": "Lữ Khách Hư Không",
+      "id": 38,
+      "key": "Kassadin",
+      "name": "Kassadin"
+    },
+    "Sona": {
+      "title": "Đại Cầm Nữ",
+      "id": 37,
+      "key": "Sona",
+      "name": "Sona"
+    },
+    "Irelia": {
+      "title": "Vũ Kiếm Sư",
+      "id": 39,
+      "key": "Irelia",
+      "name": "Irelia"
+    },
+    "Viktor": {
+      "title": "Sứ Giả Máy Móc",
+      "id": 112,
+      "key": "Viktor",
+      "name": "Viktor"
+    },
+    "Rakan": {
+      "title": "Anh Chàng Quyến Rũ",
+      "id": 497,
+      "key": "Rakan",
+      "name": "Rakan"
+    },
+    "Kindred": {
+      "title": "Thợ Săn Vĩnh Hằng",
+      "id": 203,
+      "key": "Kindred",
+      "name": "Kindred"
+    },
+    "Cassiopeia": {
+      "title": "Xà Nữ",
+      "id": 69,
+      "key": "Cassiopeia",
+      "name": "Cassiopeia"
+    },
+    "Maokai": {
+      "title": "Ma Cây",
+      "id": 57,
+      "key": "Maokai",
+      "name": "Maokai"
+    },
+    "Ornn": {
+      "title": "Ngọn Lửa Khởi Nguyên",
+      "id": 516,
+      "key": "Ornn",
+      "name": "Ornn"
+    },
+    "Thresh": {
+      "title": "Cai Ngục Xiềng Xích",
+      "id": 412,
+      "key": "Thresh",
+      "name": "Thresh"
+    },
+    "Kayle": {
+      "title": "Thiên Thần Phán Quyết",
+      "id": 10,
+      "key": "Kayle",
+      "name": "Kayle"
+    },
+    "Hecarim": {
+      "title": "Bóng Ma Chiến Tranh",
+      "id": 120,
+      "key": "Hecarim",
+      "name": "Hecarim"
+    },
+    "Khazix": {
+      "title": "Sát Thủ Hư Không",
+      "id": 121,
+      "key": "Khazix",
+      "name": "Kha'Zix"
+    },
+    "Olaf": {
+      "title": "Chiến Binh Điên Cuồng",
+      "id": 2,
+      "key": "Olaf",
+      "name": "Olaf"
+    },
+    "Ziggs": {
+      "title": "Chuyên Gia Chất Nổ",
+      "id": 115,
+      "key": "Ziggs",
+      "name": "Ziggs"
+    },
+    "Syndra": {
+      "title": "Nữ Chúa Bóng Tối",
+      "id": 134,
+      "key": "Syndra",
+      "name": "Syndra"
+    },
+    "DrMundo": {
+      "title": "Cuồng Nhân Xứ Zaun",
+      "id": 36,
+      "key": "DrMundo",
+      "name": "Dr. Mundo"
+    },
+    "Karma": {
+      "title": "Kẻ Được Khai Sáng",
+      "id": 43,
+      "key": "Karma",
+      "name": "Karma"
+    },
+    "Annie": {
+      "title": "Đứa Trẻ Bóng Tối",
+      "id": 1,
+      "key": "Annie",
+      "name": "Annie"
+    },
+    "Akali": {
+      "title": "Nắm Đấm Bóng Đêm",
+      "id": 84,
+      "key": "Akali",
+      "name": "Akali"
+    },
+    "Volibear": {
+      "title": "Gấu Sấm Sét",
+      "id": 106,
+      "key": "Volibear",
+      "name": "Volibear"
+    },
+    "Yasuo": {
+      "title": "Kẻ Bất Dung Thứ",
+      "id": 157,
+      "key": "Yasuo",
+      "name": "Yasuo"
+    },
+    "Kennen": {
+      "title": "Trái Tim Sấm Sét",
+      "id": 85,
+      "key": "Kennen",
+      "name": "Kennen"
+    },
+    "Rengar": {
+      "title": "Thú Săn Mồi Kiêu Hãnh",
+      "id": 107,
+      "key": "Rengar",
+      "name": "Rengar"
+    },
+    "Ryze": {
+      "title": "Pháp Sư Cổ Ngữ",
+      "id": 13,
+      "key": "Ryze",
+      "name": "Ryze"
+    },
+    "Shen": {
+      "title": "Mắt Hoàng Hôn",
+      "id": 98,
+      "key": "Shen",
+      "name": "Shen"
+    },
+    "Zac": {
+      "title": "Vũ Khí Bí Mật",
+      "id": 154,
+      "key": "Zac",
+      "name": "Zac"
+    },
+    "Talon": {
+      "title": "Sát Thủ Bóng Đêm",
+      "id": 91,
+      "key": "Talon",
+      "name": "Talon"
+    },
+    "Swain": {
+      "title": "Nguyên Soái Noxus",
+      "id": 50,
+      "key": "Swain",
+      "name": "Swain"
+    },
+    "Bard": {
+      "title": "Ông Bụt Vũ Trụ",
+      "id": 432,
+      "key": "Bard",
+      "name": "Bard"
+    },
+    "Sion": {
+      "title": "Chiến Binh Bất Tử",
+      "id": 14,
+      "key": "Sion",
+      "name": "Sion"
+    },
+    "Vayne": {
+      "title": "Thợ Săn Bóng Đêm",
+      "id": 67,
+      "key": "Vayne",
+      "name": "Vayne"
+    },
+    "Nasus": {
+      "title": "Nhà Thông Thái Sa Mạc",
+      "id": 75,
+      "key": "Nasus",
+      "name": "Nasus"
+    },
+    "Kayn": {
+      "title": "Tử Thần Bóng Tối",
+      "id": 141,
+      "key": "Kayn",
+      "name": "Kayn"
+    },
+    "TwistedFate": {
+      "title": "Thần Bài",
+      "id": 4,
+      "key": "TwistedFate",
+      "name": "Twisted Fate"
+    },
+    "Chogath": {
+      "title": "Quái Vật Hư Không",
+      "id": 31,
+      "key": "Chogath",
+      "name": "Cho'Gath"
+    },
+    "Udyr": {
+      "title": "Lữ Khách Tinh Linh",
+      "id": 77,
+      "key": "Udyr",
+      "name": "Udyr"
+    },
+    "Lucian": {
+      "title": "Kẻ Thanh Trừng",
+      "id": 236,
+      "key": "Lucian",
+      "name": "Lucian"
+    },
+    "Ivern": {
+      "title": "Thụ Thần Thân Thiện",
+      "id": 427,
+      "key": "Ivern",
+      "name": "Ivern"
+    },
+    "Leona": {
+      "title": "Bình Minh Rực Rỡ",
+      "id": 89,
+      "key": "Leona",
+      "name": "Leona"
+    },
+    "Caitlyn": {
+      "title": "Cảnh Sát Trưởng Piltover",
+      "id": 51,
+      "key": "Caitlyn",
+      "name": "Caitlyn"
+    },
+    "Sejuani": {
+      "title": "Cơn Thịnh Nộ Phương Bắc",
+      "id": 113,
+      "key": "Sejuani",
+      "name": "Sejuani"
+    },
+    "Nocturne": {
+      "title": "Ác Mộng Vĩnh Cửu",
+      "id": 56,
+      "key": "Nocturne",
+      "name": "Nocturne"
+    },
+    "Zilean": {
+      "title": "Giám Hộ Thời Gian",
+      "id": 26,
+      "key": "Zilean",
+      "name": "Zilean"
+    },
+    "Azir": {
+      "title": "Hoàng Đế Sa Mạc",
+      "id": 268,
+      "key": "Azir",
+      "name": "Azir"
+    },
+    "Rumble": {
+      "title": "Hiểm Họa Cơ Khí",
+      "id": 68,
+      "key": "Rumble",
+      "name": "Rumble"
+    },
+    "Morgana": {
+      "title": "Thiên Thần Sa Ngã",
+      "id": 25,
+      "key": "Morgana",
+      "name": "Morgana"
+    },
+    "Taliyah": {
+      "title": "Phù Thủy Đá",
+      "id": 163,
+      "key": "Taliyah",
+      "name": "Taliyah"
+    },
+    "Teemo": {
+      "title": "Trinh Sát Nhanh Nhẹn",
+      "id": 17,
+      "key": "Teemo",
+      "name": "Teemo"
+    },
+    "Urgot": {
+      "title": "Pháo Đài Di Động",
+      "id": 6,
+      "key": "Urgot",
+      "name": "Urgot"
+    },
+    "Amumu": {
+      "title": "Xác Ướp U Sầu",
+      "id": 32,
+      "key": "Amumu",
+      "name": "Amumu"
+    },
+    "Galio": {
+      "title": "Vệ Thần Khổng Lồ",
+      "id": 3,
+      "key": "Galio",
+      "name": "Galio"
+    },
+    "Heimerdinger": {
+      "title": "Nhà Phát Minh Lỗi Lạc",
+      "id": 74,
+      "key": "Heimerdinger",
+      "name": "Heimerdinger"
+    },
+    "Anivia": {
+      "title": "Phượng Hoàng Băng",
+      "id": 34,
+      "key": "Anivia",
+      "name": "Anivia"
+    },
+    "Ashe": {
+      "title": "Cung Băng",
+      "id": 22,
+      "key": "Ashe",
+      "name": "Ashe"
+    },
+    "Velkoz": {
+      "title": "Con Mắt Hư Không",
+      "id": 161,
+      "key": "Velkoz",
+      "name": "Vel'Koz"
+    },
+    "Singed": {
+      "title": "Dược Sĩ Điên",
+      "id": 27,
+      "key": "Singed",
+      "name": "Singed"
+    },
+    "Skarner": {
+      "title": "Bọ Cạp Kim Cương",
+      "id": 72,
+      "key": "Skarner",
+      "name": "Skarner"
+    },
+    "Varus": {
+      "title": "Mũi Tên Báo Thù",
+      "id": 110,
+      "key": "Varus",
+      "name": "Varus"
+    },
+    "Twitch": {
+      "title": "Chuột Thành Tinh",
+      "id": 29,
+      "key": "Twitch",
+      "name": "Twitch"
+    },
+    "Garen": {
+      "title": "Sức Mạnh Của Demacia",
+      "id": 86,
+      "key": "Garen",
+      "name": "Garen"
+    },
+    "Blitzcrank": {
+      "title": "Người Máy Hơi Nước",
+      "id": 53,
+      "key": "Blitzcrank",
+      "name": "Blitzcrank"
+    },
+    "MasterYi": {
+      "title": "Kiếm Sư Wuju",
+      "id": 11,
+      "key": "MasterYi",
+      "name": "Master Yi"
+    },
+    "Elise": {
+      "title": "Nữ Hoàng Nhền Nhện",
+      "id": 60,
+      "key": "Elise",
+      "name": "Elise"
+    },
+    "Alistar": {
+      "title": "Quái Vật Đầu Bò",
+      "id": 12,
+      "key": "Alistar",
+      "name": "Alistar"
+    },
+    "Katarina": {
+      "title": "Ác Kiếm",
+      "id": 55,
+      "key": "Katarina",
+      "name": "Katarina"
+    },
+    "Ekko": {
+      "title": "Cậu Bé Đảo Lộn Thời Gian",
+      "id": 245,
+      "key": "Ekko",
+      "name": "Ekko"
+    },
+    "Mordekaiser": {
+      "title": "Ác Quỷ Thiết Giáp",
+      "id": 82,
+      "key": "Mordekaiser",
+      "name": "Mordekaiser"
+    },
+    "Lulu": {
+      "title": "Pháp Sư Tinh Linh",
+      "id": 117,
+      "key": "Lulu",
+      "name": "Lulu"
+    },
+    "Camille": {
+      "title": "Bóng Thép",
+      "id": 164,
+      "key": "Camille",
+      "name": "Camille"
+    },
+    "Aatrox": {
+      "title": "Quỷ Kiếm Darkin",
+      "id": 266,
+      "key": "Aatrox",
+      "name": "Aatrox"
+    },
+    "Draven": {
+      "title": "Đao Phủ Kiêu Hùng",
+      "id": 119,
+      "key": "Draven",
+      "name": "Draven"
+    },
+    "TahmKench": {
+      "title": "Thủy Quái Đại Vương",
+      "id": 223,
+      "key": "TahmKench",
+      "name": "Tahm Kench"
+    },
+    "Pantheon": {
+      "title": "Bậc Thầy Chiến Tranh",
+      "id": 80,
+      "key": "Pantheon",
+      "name": "Pantheon"
+    },
+    "XinZhao": {
+      "title": " Tể Tướng Demacia",
+      "id": 5,
+      "key": "XinZhao",
+      "name": "Xin Zhao"
+    },
+    "AurelionSol": {
+      "title": "Ác Long Thượng Giới",
+      "id": 136,
+      "key": "AurelionSol",
+      "name": "Aurelion Sol"
+    },
+    "LeeSin": {
+      "title": "Thầy Tu Mù",
+      "id": 64,
+      "key": "LeeSin",
+      "name": "Lee Sin"
+    },
+    "Taric": {
+      "title": "Tấm Khiên Valoran",
+      "id": 44,
+      "key": "Taric",
+      "name": "Taric"
+    },
+    "Malzahar": {
+      "title": "Tiên Tri Hư Không",
+      "id": 90,
+      "key": "Malzahar",
+      "name": "Malzahar"
+    },
+    "Kaisa": {
+      "title": "Ái Nữ Hư Không",
+      "id": 145,
+      "key": "Kaisa",
+      "name": "Kai'Sa"
+    },
+    "Diana": {
+      "title": "Vầng Trăng Ai Oán",
+      "id": 131,
+      "key": "Diana",
+      "name": "Diana"
+    },
+    "Tristana": {
+      "title": "Tay Súng Yordle",
+      "id": 18,
+      "key": "Tristana",
+      "name": "Tristana"
+    },
+    "RekSai": {
+      "title": "Nấm Mồ Hư Không",
+      "id": 421,
+      "key": "RekSai",
+      "name": "Rek'Sai"
+    },
+    "Vladimir": {
+      "title": "Thần Chết Đỏ",
+      "id": 8,
+      "key": "Vladimir",
+      "name": "Vladimir"
+    },
+    "JarvanIV": {
+      "title": "Biểu Tượng Của Demacia",
+      "id": 59,
+      "key": "JarvanIV",
+      "name": "Jarvan IV"
+    },
+    "Nami": {
+      "title": "Nàng Tiên Cá",
+      "id": 267,
+      "key": "Nami",
+      "name": "Nami"
+    },
+    "Jhin": {
+      "title": "Nghệ Sĩ Tử Thần",
+      "id": 202,
+      "key": "Jhin",
+      "name": "Jhin"
+    },
+    "Soraka": {
+      "title": "Tinh Nữ",
+      "id": 16,
+      "key": "Soraka",
+      "name": "Soraka"
+    },
+    "Veigar": {
+      "title": "Bậc Thầy Tiểu Quỷ",
+      "id": 45,
+      "key": "Veigar",
+      "name": "Veigar"
+    },
+    "Janna": {
+      "title": "Cơn Thịnh Nộ Của Bão Tố",
+      "id": 40,
+      "key": "Janna",
+      "name": "Janna"
+    },
+    "Nautilus": {
+      "title": "Khổng Lồ Biển Sâu",
+      "id": 111,
+      "key": "Nautilus",
+      "name": "Nautilus"
+    },
+    "Evelynn": {
+      "title": "Yêu Nữ",
+      "id": 28,
+      "key": "Evelynn",
+      "name": "Evelynn"
+    },
+    "Gragas": {
+      "title": "Gã Bợm Rượu",
+      "id": 79,
+      "key": "Gragas",
+      "name": "Gragas"
+    },
+    "Zed": {
+      "title": "Chúa Tể Bóng Tối",
+      "id": 238,
+      "key": "Zed",
+      "name": "Zed"
+    },
+    "Vi": {
+      "title": "Cảnh Binh Piltover ",
+      "id": 254,
+      "key": "Vi",
+      "name": "Vi"
+    },
+    "KogMaw": {
+      "title": "Miệng Của Vực Thẳm",
+      "id": 96,
+      "key": "KogMaw",
+      "name": "Kog'Maw"
+    },
+    "Ahri": {
+      "title": "Hồ Li Chín Đuôi",
+      "id": 103,
+      "key": "Ahri",
+      "name": "Ahri"
+    },
+    "Quinn": {
+      "title": "Đôi Cánh Demacia",
+      "id": 133,
+      "key": "Quinn",
+      "name": "Quinn"
+    },
+    "Leblanc": {
+      "title": "Kẻ Lừa Đảo",
+      "id": 7,
+      "key": "Leblanc",
+      "name": "LeBlanc"
+    },
+    "Ezreal": {
+      "title": "Nhà Thám Hiểm",
+      "id": 81,
+      "key": "Ezreal",
+      "name": "Ezreal"
+    }
+  }
+}

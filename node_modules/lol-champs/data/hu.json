@@ -1,0 +1,846 @@
+{
+  "type": "champion",
+  "version": "8.8.1",
+  "data": {
+    "MonkeyKing": {
+      "title": "a majomkirály",
+      "id": 62,
+      "key": "MonkeyKing",
+      "name": "Wukong"
+    },
+    "Jax": {
+      "title": "a fegyverek nagymestere",
+      "id": 24,
+      "key": "Jax",
+      "name": "Jax"
+    },
+    "Fiddlesticks": {
+      "title": "a végzet hírnöke",
+      "id": 9,
+      "key": "Fiddlesticks",
+      "name": "Fiddlesticks"
+    },
+    "Shaco": {
+      "title": "a démoni bohóc",
+      "id": 35,
+      "key": "Shaco",
+      "name": "Shaco"
+    },
+    "Warwick": {
+      "title": "Zaun elszabadult dühe",
+      "id": 19,
+      "key": "Warwick",
+      "name": "Warwick"
+    },
+    "Xayah": {
+      "title": "a lázadó",
+      "id": 498,
+      "key": "Xayah",
+      "name": "Xayah"
+    },
+    "Nidalee": {
+      "title": "a vadászó bestia",
+      "id": 76,
+      "key": "Nidalee",
+      "name": "Nidalee"
+    },
+    "Zyra": {
+      "title": "a tövisek úrnője",
+      "id": 143,
+      "key": "Zyra",
+      "name": "Zyra"
+    },
+    "Kled": {
+      "title": "a zsémbes lovag",
+      "id": 240,
+      "key": "Kled",
+      "name": "Kled"
+    },
+    "Brand": {
+      "title": "a lángoló bosszú",
+      "id": 63,
+      "key": "Brand",
+      "name": "Brand"
+    },
+    "Rammus": {
+      "title": "a páncélos",
+      "id": 33,
+      "key": "Rammus",
+      "name": "Rammus"
+    },
+    "Illaoi": {
+      "title": "a kraken papnő",
+      "id": 420,
+      "key": "Illaoi",
+      "name": "Illaoi"
+    },
+    "Corki": {
+      "title": "a vakmerő tüzér",
+      "id": 42,
+      "key": "Corki",
+      "name": "Corki"
+    },
+    "Braum": {
+      "title": "Freljord szíve",
+      "id": 201,
+      "key": "Braum",
+      "name": "Braum"
+    },
+    "Darius": {
+      "title": "Noxus keze",
+      "id": 122,
+      "key": "Darius",
+      "name": "Darius"
+    },
+    "Tryndamere": {
+      "title": "a barbárvezér",
+      "id": 23,
+      "key": "Tryndamere",
+      "name": "Tryndamere"
+    },
+    "MissFortune": {
+      "title": "a fejvadász",
+      "id": 21,
+      "key": "MissFortune",
+      "name": "Miss Fortune"
+    },
+    "Yorick": {
+      "title": "a lelkek pásztora",
+      "id": 83,
+      "key": "Yorick",
+      "name": "Yorick"
+    },
+    "Xerath": {
+      "title": "az emelkedett mágus",
+      "id": 101,
+      "key": "Xerath",
+      "name": "Xerath"
+    },
+    "Sivir": {
+      "title": "a viadal úrnője",
+      "id": 15,
+      "key": "Sivir",
+      "name": "Sivir"
+    },
+    "Riven": {
+      "title": "a száműzött",
+      "id": 92,
+      "key": "Riven",
+      "name": "Riven"
+    },
+    "Orianna": {
+      "title": "az óraművek hölgye",
+      "id": 61,
+      "key": "Orianna",
+      "name": "Orianna"
+    },
+    "Gangplank": {
+      "title": "a sósvízi veszedelem",
+      "id": 41,
+      "key": "Gangplank",
+      "name": "Gangplank"
+    },
+    "Malphite": {
+      "title": "a monolitszilánk",
+      "id": 54,
+      "key": "Malphite",
+      "name": "Malphite"
+    },
+    "Poppy": {
+      "title": "a pöröly őrzője",
+      "id": 78,
+      "key": "Poppy",
+      "name": "Poppy"
+    },
+    "Lissandra": {
+      "title": "a jégboszorkány",
+      "id": 127,
+      "key": "Lissandra",
+      "name": "Lissandra"
+    },
+    "Jayce": {
+      "title": "a holnap védelmezője",
+      "id": 126,
+      "key": "Jayce",
+      "name": "Jayce"
+    },
+    "Nunu": {
+      "title": "a jetilovas",
+      "id": 20,
+      "key": "Nunu",
+      "name": "Nunu"
+    },
+    "Trundle": {
+      "title": "a Troll király",
+      "id": 48,
+      "key": "Trundle",
+      "name": "Trundle"
+    },
+    "Karthus": {
+      "title": "a halál énekese",
+      "id": 30,
+      "key": "Karthus",
+      "name": "Karthus"
+    },
+    "Graves": {
+      "title": "a törvényen kívüli",
+      "id": 104,
+      "key": "Graves",
+      "name": "Graves"
+    },
+    "Zoe": {
+      "title": "az Alkony szelleme",
+      "id": 142,
+      "key": "Zoe",
+      "name": "Zoe"
+    },
+    "Gnar": {
+      "title": "a hiányzó láncszem",
+      "id": 150,
+      "key": "Gnar",
+      "name": "Gnar"
+    },
+    "Lux": {
+      "title": "a fény úrnője",
+      "id": 99,
+      "key": "Lux",
+      "name": "Lux"
+    },
+    "Shyvana": {
+      "title": "a félvér sárkány",
+      "id": 102,
+      "key": "Shyvana",
+      "name": "Shyvana"
+    },
+    "Renekton": {
+      "title": "a sivatag mészárosa",
+      "id": 58,
+      "key": "Renekton",
+      "name": "Renekton"
+    },
+    "Fiora": {
+      "title": "a nagy párbajhős",
+      "id": 114,
+      "key": "Fiora",
+      "name": "Fiora"
+    },
+    "Jinx": {
+      "title": "a nagyágyú",
+      "id": 222,
+      "key": "Jinx",
+      "name": "Jinx"
+    },
+    "Kalista": {
+      "title": "a bosszú lándzsája",
+      "id": 429,
+      "key": "Kalista",
+      "name": "Kalista"
+    },
+    "Fizz": {
+      "title": "az árapály trükkmestere",
+      "id": 105,
+      "key": "Fizz",
+      "name": "Fizz"
+    },
+    "Kassadin": {
+      "title": "az Üresség vándora",
+      "id": 38,
+      "key": "Kassadin",
+      "name": "Kassadin"
+    },
+    "Sona": {
+      "title": "a húrok virtuóza",
+      "id": 37,
+      "key": "Sona",
+      "name": "Sona"
+    },
+    "Irelia": {
+      "title": "a pengetáncos",
+      "id": 39,
+      "key": "Irelia",
+      "name": "Irelia"
+    },
+    "Viktor": {
+      "title": "a géphírnök",
+      "id": 112,
+      "key": "Viktor",
+      "name": "Viktor"
+    },
+    "Rakan": {
+      "title": "a sármőr",
+      "id": 497,
+      "key": "Rakan",
+      "name": "Rakan"
+    },
+    "Kindred": {
+      "title": "az örökkévalóság vadászai",
+      "id": 203,
+      "key": "Kindred",
+      "name": "Kindred"
+    },
+    "Cassiopeia": {
+      "title": "a kígyó ölelése",
+      "id": 69,
+      "key": "Cassiopeia",
+      "name": "Cassiopeia"
+    },
+    "Maokai": {
+      "title": "a hatalmas ent",
+      "id": 57,
+      "key": "Maokai",
+      "name": "Maokai"
+    },
+    "Ornn": {
+      "title": "A hegymély lángja",
+      "id": 516,
+      "key": "Ornn",
+      "name": "Ornn"
+    },
+    "Thresh": {
+      "title": "a láncok őre",
+      "id": 412,
+      "key": "Thresh",
+      "name": "Thresh"
+    },
+    "Kayle": {
+      "title": "az igazságosztó",
+      "id": 10,
+      "key": "Kayle",
+      "name": "Kayle"
+    },
+    "Hecarim": {
+      "title": "a háború árnyéka",
+      "id": 120,
+      "key": "Hecarim",
+      "name": "Hecarim"
+    },
+    "Khazix": {
+      "title": "az Üresség ragadozója",
+      "id": 121,
+      "key": "Khazix",
+      "name": "Kha'Zix"
+    },
+    "Olaf": {
+      "title": "a rettenthetetlen viking",
+      "id": 2,
+      "key": "Olaf",
+      "name": "Olaf"
+    },
+    "Ziggs": {
+      "title": "a hextikus robbantó",
+      "id": 115,
+      "key": "Ziggs",
+      "name": "Ziggs"
+    },
+    "Syndra": {
+      "title": "a sötét fejedelem",
+      "id": 134,
+      "key": "Syndra",
+      "name": "Syndra"
+    },
+    "DrMundo": {
+      "title": "a zauni őrült",
+      "id": 36,
+      "key": "DrMundo",
+      "name": "Dr. Mundo"
+    },
+    "Karma": {
+      "title": "a felvilágosult",
+      "id": 43,
+      "key": "Karma",
+      "name": "Karma"
+    },
+    "Annie": {
+      "title": "a sötét gyermek",
+      "id": 1,
+      "key": "Annie",
+      "name": "Annie"
+    },
+    "Akali": {
+      "title": "az árnyék ökle",
+      "id": 84,
+      "key": "Akali",
+      "name": "Akali"
+    },
+    "Volibear": {
+      "title": "a mennydörgés hangja",
+      "id": 106,
+      "key": "Volibear",
+      "name": "Volibear"
+    },
+    "Yasuo": {
+      "title": "a kitaszított",
+      "id": 157,
+      "key": "Yasuo",
+      "name": "Yasuo"
+    },
+    "Kennen": {
+      "title": "a vihar szíve",
+      "id": 85,
+      "key": "Kennen",
+      "name": "Kennen"
+    },
+    "Rengar": {
+      "title": "a büszke ragadozó",
+      "id": 107,
+      "key": "Rengar",
+      "name": "Rengar"
+    },
+    "Ryze": {
+      "title": "a rúnamágus",
+      "id": 13,
+      "key": "Ryze",
+      "name": "Ryze"
+    },
+    "Shen": {
+      "title": "az Alkony szeme",
+      "id": 98,
+      "key": "Shen",
+      "name": "Shen"
+    },
+    "Zac": {
+      "title": "a titkos fegyver",
+      "id": 154,
+      "key": "Zac",
+      "name": "Zac"
+    },
+    "Talon": {
+      "title": "a penge árnyéka",
+      "id": 91,
+      "key": "Talon",
+      "name": "Talon"
+    },
+    "Swain": {
+      "title": "Noxus legfőbb tábornoka",
+      "id": 50,
+      "key": "Swain",
+      "name": "Swain"
+    },
+    "Bard": {
+      "title": "a vigyázó vándor",
+      "id": 432,
+      "key": "Bard",
+      "name": "Bard"
+    },
+    "Sion": {
+      "title": "az élőholt gyilkológép",
+      "id": 14,
+      "key": "Sion",
+      "name": "Sion"
+    },
+    "Vayne": {
+      "title": "az éji vadász",
+      "id": 67,
+      "key": "Vayne",
+      "name": "Vayne"
+    },
+    "Nasus": {
+      "title": "a homokdűnék őre",
+      "id": 75,
+      "key": "Nasus",
+      "name": "Nasus"
+    },
+    "Kayn": {
+      "title": "az Árnykaszás",
+      "id": 141,
+      "key": "Kayn",
+      "name": "Kayn"
+    },
+    "TwistedFate": {
+      "title": "a hamiskártyás",
+      "id": 4,
+      "key": "TwistedFate",
+      "name": "Twisted Fate"
+    },
+    "Chogath": {
+      "title": "az Üresség réme",
+      "id": 31,
+      "key": "Chogath",
+      "name": "Cho'Gath"
+    },
+    "Udyr": {
+      "title": "a lélekvándor",
+      "id": 77,
+      "key": "Udyr",
+      "name": "Udyr"
+    },
+    "Lucian": {
+      "title": "a megtisztító",
+      "id": 236,
+      "key": "Lucian",
+      "name": "Lucian"
+    },
+    "Ivern": {
+      "title": "a zöld barát",
+      "id": 427,
+      "key": "Ivern",
+      "name": "Ivern"
+    },
+    "Leona": {
+      "title": "a sugárzó hajnal",
+      "id": 89,
+      "key": "Leona",
+      "name": "Leona"
+    },
+    "Caitlyn": {
+      "title": "Piltover seriffje",
+      "id": 51,
+      "key": "Caitlyn",
+      "name": "Caitlyn"
+    },
+    "Sejuani": {
+      "title": "Észak dühe",
+      "id": 113,
+      "key": "Sejuani",
+      "name": "Sejuani"
+    },
+    "Nocturne": {
+      "title": "az örök rémálom",
+      "id": 56,
+      "key": "Nocturne",
+      "name": "Nocturne"
+    },
+    "Zilean": {
+      "title": "az idő őre",
+      "id": 26,
+      "key": "Zilean",
+      "name": "Zilean"
+    },
+    "Azir": {
+      "title": "a sivatag császára",
+      "id": 268,
+      "key": "Azir",
+      "name": "Azir"
+    },
+    "Rumble": {
+      "title": "a gépesített fenyegetés",
+      "id": 68,
+      "key": "Rumble",
+      "name": "Rumble"
+    },
+    "Morgana": {
+      "title": "a bukott angyal",
+      "id": 25,
+      "key": "Morgana",
+      "name": "Morgana"
+    },
+    "Taliyah": {
+      "title": "a sziklaszövő",
+      "id": 163,
+      "key": "Taliyah",
+      "name": "Taliyah"
+    },
+    "Teemo": {
+      "title": "a fürge felderítő",
+      "id": 17,
+      "key": "Teemo",
+      "name": "Teemo"
+    },
+    "Urgot": {
+      "title": "a pusztító",
+      "id": 6,
+      "key": "Urgot",
+      "name": "Urgot"
+    },
+    "Amumu": {
+      "title": "a szomorú múmia",
+      "id": 32,
+      "key": "Amumu",
+      "name": "Amumu"
+    },
+    "Galio": {
+      "title": "a kolosszus",
+      "id": 3,
+      "key": "Galio",
+      "name": "Galio"
+    },
+    "Heimerdinger": {
+      "title": "a megbecsült feltaláló",
+      "id": 74,
+      "key": "Heimerdinger",
+      "name": "Heimerdinger"
+    },
+    "Anivia": {
+      "title": "a jégfőnix",
+      "id": 34,
+      "key": "Anivia",
+      "name": "Anivia"
+    },
+    "Ashe": {
+      "title": "a fagyos íjász",
+      "id": 22,
+      "key": "Ashe",
+      "name": "Ashe"
+    },
+    "Velkoz": {
+      "title": "az Üresség szeme",
+      "id": 161,
+      "key": "Velkoz",
+      "name": "Vel'Koz"
+    },
+    "Singed": {
+      "title": "az őrült vegyész",
+      "id": 27,
+      "key": "Singed",
+      "name": "Singed"
+    },
+    "Skarner": {
+      "title": "a kristály élharcosa",
+      "id": 72,
+      "key": "Skarner",
+      "name": "Skarner"
+    },
+    "Varus": {
+      "title": "a megtorlás nyila",
+      "id": 110,
+      "key": "Varus",
+      "name": "Varus"
+    },
+    "Twitch": {
+      "title": "a pestispatkány",
+      "id": 29,
+      "key": "Twitch",
+      "name": "Twitch"
+    },
+    "Garen": {
+      "title": "Demacia ereje",
+      "id": 86,
+      "key": "Garen",
+      "name": "Garen"
+    },
+    "Blitzcrank": {
+      "title": "a hatalmas gőzgólem",
+      "id": 53,
+      "key": "Blitzcrank",
+      "name": "Blitzcrank"
+    },
+    "MasterYi": {
+      "title": "a wuju nagymester",
+      "id": 11,
+      "key": "MasterYi",
+      "name": "Master Yi"
+    },
+    "Elise": {
+      "title": "a Pókkirálynő",
+      "id": 60,
+      "key": "Elise",
+      "name": "Elise"
+    },
+    "Alistar": {
+      "title": "a minotaurusz",
+      "id": 12,
+      "key": "Alistar",
+      "name": "Alistar"
+    },
+    "Katarina": {
+      "title": "a baljós tőr",
+      "id": 55,
+      "key": "Katarina",
+      "name": "Katarina"
+    },
+    "Ekko": {
+      "title": "a fiú, aki legyőzte az időt",
+      "id": 245,
+      "key": "Ekko",
+      "name": "Ekko"
+    },
+    "Mordekaiser": {
+      "title": "a vaslidérc",
+      "id": 82,
+      "key": "Mordekaiser",
+      "name": "Mordekaiser"
+    },
+    "Lulu": {
+      "title": "a tündérboszorkány",
+      "id": 117,
+      "key": "Lulu",
+      "name": "Lulu"
+    },
+    "Camille": {
+      "title": "az acélhölgy",
+      "id": 164,
+      "key": "Camille",
+      "name": "Camille"
+    },
+    "Aatrox": {
+      "title": "a Darkin penge",
+      "id": 266,
+      "key": "Aatrox",
+      "name": "Aatrox"
+    },
+    "Draven": {
+      "title": "a dicső hóhér",
+      "id": 119,
+      "key": "Draven",
+      "name": "Draven"
+    },
+    "TahmKench": {
+      "title": "a folyó királya",
+      "id": 223,
+      "key": "TahmKench",
+      "name": "Tahm Kench"
+    },
+    "Pantheon": {
+      "title": "a háború mestere",
+      "id": 80,
+      "key": "Pantheon",
+      "name": "Pantheon"
+    },
+    "XinZhao": {
+      "title": "Demacia udvarmestere",
+      "id": 5,
+      "key": "XinZhao",
+      "name": "Xin Zhao"
+    },
+    "AurelionSol": {
+      "title": "a csillagok kovácsa",
+      "id": 136,
+      "key": "AurelionSol",
+      "name": "Aurelion Sol"
+    },
+    "LeeSin": {
+      "title": "a világtalan szerzetes",
+      "id": 64,
+      "key": "LeeSin",
+      "name": "Lee Sin"
+    },
+    "Taric": {
+      "title": "Valoran pajzsa",
+      "id": 44,
+      "key": "Taric",
+      "name": "Taric"
+    },
+    "Malzahar": {
+      "title": "az Üresség prófétája",
+      "id": 90,
+      "key": "Malzahar",
+      "name": "Malzahar"
+    },
+    "Kaisa": {
+      "title": "Az üresség leánya",
+      "id": 145,
+      "key": "Kaisa",
+      "name": "Kai'Sa"
+    },
+    "Diana": {
+      "title": "a Hold bajnoka",
+      "id": 131,
+      "key": "Diana",
+      "name": "Diana"
+    },
+    "Tristana": {
+      "title": "a yordle tüzér",
+      "id": 18,
+      "key": "Tristana",
+      "name": "Tristana"
+    },
+    "RekSai": {
+      "title": "a sivatagi Ürességrém",
+      "id": 421,
+      "key": "RekSai",
+      "name": "Rek'Sai"
+    },
+    "Vladimir": {
+      "title": "a karmazsin kaszás",
+      "id": 8,
+      "key": "Vladimir",
+      "name": "Vladimir"
+    },
+    "JarvanIV": {
+      "title": "Demacia eszménye",
+      "id": 59,
+      "key": "JarvanIV",
+      "name": "IV. Jarvan"
+    },
+    "Nami": {
+      "title": "a dagályhívó",
+      "id": 267,
+      "key": "Nami",
+      "name": "Nami"
+    },
+    "Jhin": {
+      "title": "a virtuóz",
+      "id": 202,
+      "key": "Jhin",
+      "name": "Jhin"
+    },
+    "Soraka": {
+      "title": "a Csillaggyermek",
+      "id": 16,
+      "key": "Soraka",
+      "name": "Soraka"
+    },
+    "Veigar": {
+      "title": "a gonoszság apró mestere",
+      "id": 45,
+      "key": "Veigar",
+      "name": "Veigar"
+    },
+    "Janna": {
+      "title": "a vihar haragja",
+      "id": 40,
+      "key": "Janna",
+      "name": "Janna"
+    },
+    "Nautilus": {
+      "title": "a mélység titánja",
+      "id": 111,
+      "key": "Nautilus",
+      "name": "Nautilus"
+    },
+    "Evelynn": {
+      "title": "A gyötrelem ölelése",
+      "id": 28,
+      "key": "Evelynn",
+      "name": "Evelynn"
+    },
+    "Gragas": {
+      "title": "a csőcselék felbujtója",
+      "id": 79,
+      "key": "Gragas",
+      "name": "Gragas"
+    },
+    "Zed": {
+      "title": "az árnyak nagyura",
+      "id": 238,
+      "key": "Zed",
+      "name": "Zed"
+    },
+    "Vi": {
+      "title": "a piltoveri végrehajtó",
+      "id": 254,
+      "key": "Vi",
+      "name": "Vi"
+    },
+    "KogMaw": {
+      "title": "a végtelenség szája",
+      "id": 96,
+      "key": "KogMaw",
+      "name": "Kog'Maw"
+    },
+    "Ahri": {
+      "title": "a kilencfarkú róka",
+      "id": 103,
+      "key": "Ahri",
+      "name": "Ahri"
+    },
+    "Quinn": {
+      "title": "Demacia szárnyai",
+      "id": 133,
+      "key": "Quinn",
+      "name": "Quinn"
+    },
+    "Leblanc": {
+      "title": "a megtévesztő",
+      "id": 7,
+      "key": "Leblanc",
+      "name": "LeBlanc"
+    },
+    "Ezreal": {
+      "title": "a tékozló felfedező",
+      "id": 81,
+      "key": "Ezreal",
+      "name": "Ezreal"
+    }
+  }
+}

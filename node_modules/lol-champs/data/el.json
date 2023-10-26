@@ -1,0 +1,846 @@
+{
+  "type": "champion",
+  "version": "8.8.1",
+  "data": {
+    "MonkeyKing": {
+      "title": "ο Βασιλιάς των Πιθήκων",
+      "id": 62,
+      "key": "MonkeyKing",
+      "name": "Γουκόνγκ"
+    },
+    "Jax": {
+      "title": "Γνώστης των Όπλων",
+      "id": 24,
+      "key": "Jax",
+      "name": "Τζαξ"
+    },
+    "Fiddlesticks": {
+      "title": "ο Κήρυκας της Καταστροφής",
+      "id": 9,
+      "key": "Fiddlesticks",
+      "name": "Φίντλστιξ"
+    },
+    "Shaco": {
+      "title": "ο Δαιμονικός Γελωτοποιός",
+      "id": 35,
+      "key": "Shaco",
+      "name": "Σάκο"
+    },
+    "Warwick": {
+      "title": "η Ασταμάτητη Οργή του Ζάουν",
+      "id": 19,
+      "key": "Warwick",
+      "name": "Γουόργουικ"
+    },
+    "Xayah": {
+      "title": "η Επαναστάτρια",
+      "id": 498,
+      "key": "Xayah",
+      "name": "Ζάια"
+    },
+    "Nidalee": {
+      "title": "η Άγρια Κυνηγός",
+      "id": 76,
+      "key": "Nidalee",
+      "name": "Νίνταλι"
+    },
+    "Zyra": {
+      "title": "η Κυρά των Αγκαθιών",
+      "id": 143,
+      "key": "Zyra",
+      "name": "Ζάιρα"
+    },
+    "Kled": {
+      "title": "ο Τζαναμπέτης Καβαλάρης",
+      "id": 240,
+      "key": "Kled",
+      "name": "Κλεντ"
+    },
+    "Brand": {
+      "title": "η Φλεγόμενη Εκδίκηση",
+      "id": 63,
+      "key": "Brand",
+      "name": "Μπραντ"
+    },
+    "Rammus": {
+      "title": "ο Θωρακισμένος",
+      "id": 33,
+      "key": "Rammus",
+      "name": "Ράμους"
+    },
+    "Illaoi": {
+      "title": "η Ιέρεια του Κράκεν",
+      "id": 420,
+      "key": "Illaoi",
+      "name": "Ιλλαόη"
+    },
+    "Corki": {
+      "title": "ο Τολμηρός Βομβιστής",
+      "id": 42,
+      "key": "Corki",
+      "name": "Κόρκι"
+    },
+    "Braum": {
+      "title": "η Καρδιά του Φρέλιορντ",
+      "id": 201,
+      "key": "Braum",
+      "name": "Μπράουμ"
+    },
+    "Darius": {
+      "title": "ο Σύμβουλος της Νόξους",
+      "id": 122,
+      "key": "Darius",
+      "name": "Ντάριους"
+    },
+    "Tryndamere": {
+      "title": "ο Βασιλιάς των Βαρβάρων",
+      "id": 23,
+      "key": "Tryndamere",
+      "name": "Τρίνταμερ"
+    },
+    "MissFortune": {
+      "title": "η Κυνηγός Επικηρυγμένων",
+      "id": 21,
+      "key": "MissFortune",
+      "name": "Μις Φόρτσουν"
+    },
+    "Yorick": {
+      "title": "Οδηγός των Ψυχών",
+      "id": 83,
+      "key": "Yorick",
+      "name": "Γιόρικ"
+    },
+    "Xerath": {
+      "title": "ο Εξυψωμένος Μάγος",
+      "id": 101,
+      "key": "Xerath",
+      "name": "Ζέραθ"
+    },
+    "Sivir": {
+      "title": "η Κυρά της Μάχης",
+      "id": 15,
+      "key": "Sivir",
+      "name": "Σίβιρ"
+    },
+    "Riven": {
+      "title": "η Εξόριστη",
+      "id": 92,
+      "key": "Riven",
+      "name": "Ρίβεν"
+    },
+    "Orianna": {
+      "title": "η Αφέντρα του Ρολογιού",
+      "id": 61,
+      "key": "Orianna",
+      "name": "Οριάνα"
+    },
+    "Gangplank": {
+      "title": "η Μάστιγα των Θαλασσών",
+      "id": 41,
+      "key": "Gangplank",
+      "name": "Γκάνγκπλανκ"
+    },
+    "Malphite": {
+      "title": "το Θραύσμα του Μονόλιθου",
+      "id": 54,
+      "key": "Malphite",
+      "name": "Μάλφαϊτ"
+    },
+    "Poppy": {
+      "title": "η Φύλακας του Σφυριού",
+      "id": 78,
+      "key": "Poppy",
+      "name": "Πόπι"
+    },
+    "Lissandra": {
+      "title": "η Μάγισσα των Πάγων",
+      "id": 127,
+      "key": "Lissandra",
+      "name": "Λισάντρα"
+    },
+    "Jayce": {
+      "title": "ο Υπερασπιστής του Αύριο",
+      "id": 126,
+      "key": "Jayce",
+      "name": "Τζέις"
+    },
+    "Nunu": {
+      "title": "ο Αναβάτης των Γέτι",
+      "id": 20,
+      "key": "Nunu",
+      "name": "Νούνου"
+    },
+    "Trundle": {
+      "title": "ο Βασιλιάς των Τρολ",
+      "id": 48,
+      "key": "Trundle",
+      "name": "Τραντλ"
+    },
+    "Karthus": {
+      "title": "ο Υμνωδός του Θανάτου",
+      "id": 30,
+      "key": "Karthus",
+      "name": "Κάρθους"
+    },
+    "Graves": {
+      "title": "ο Παράνομος",
+      "id": 104,
+      "key": "Graves",
+      "name": "Γκρέιβς"
+    },
+    "Zoe": {
+      "title": "η Όψη του Λυκόφωτος",
+      "id": 142,
+      "key": "Zoe",
+      "name": "Ζόη"
+    },
+    "Gnar": {
+      "title": "ο Χαμένος Κρίκος",
+      "id": 150,
+      "key": "Gnar",
+      "name": "Γκναρ"
+    },
+    "Lux": {
+      "title": "η Κόρη του Φωτός",
+      "id": 99,
+      "key": "Lux",
+      "name": "Λουξ"
+    },
+    "Shyvana": {
+      "title": "η Ημι-Δράκαινα",
+      "id": 102,
+      "key": "Shyvana",
+      "name": "Σιβάνα"
+    },
+    "Renekton": {
+      "title": "ο Χασάπης της Ερήμου",
+      "id": 58,
+      "key": "Renekton",
+      "name": "Ρένεκτον"
+    },
+    "Fiora": {
+      "title": "η Ανίκητη Ξιφομάχος",
+      "id": 114,
+      "key": "Fiora",
+      "name": "Φιόρα"
+    },
+    "Jinx": {
+      "title": "η Ανεξέλεγκτη",
+      "id": 222,
+      "key": "Jinx",
+      "name": "Τζινξ"
+    },
+    "Kalista": {
+      "title": "το Δόρυ της Εκδίκησης",
+      "id": 429,
+      "key": "Kalista",
+      "name": "Καλίστα"
+    },
+    "Fizz": {
+      "title": "ο Σκανδαλιάρης της Παλίρροιας",
+      "id": 105,
+      "key": "Fizz",
+      "name": "Φιζ"
+    },
+    "Kassadin": {
+      "title": "ο Ταξιδευτής στο Κενό",
+      "id": 38,
+      "key": "Kassadin",
+      "name": "Κάσαντιν"
+    },
+    "Sona": {
+      "title": "η Κυρίαρχος της Μουσικής",
+      "id": 37,
+      "key": "Sona",
+      "name": "Σόνα"
+    },
+    "Irelia": {
+      "title": "η Χορεύτρια των Λεπίδων",
+      "id": 39,
+      "key": "Irelia",
+      "name": "Ιρέλια"
+    },
+    "Viktor": {
+      "title": "ο Προάγγελος της Μηχανής",
+      "id": 112,
+      "key": "Viktor",
+      "name": "Βίκτορ"
+    },
+    "Rakan": {
+      "title": "Ο Γόης",
+      "id": 497,
+      "key": "Rakan",
+      "name": "Ρακάν"
+    },
+    "Kindred": {
+      "title": "οι Αιώνιοι Κυνηγοί",
+      "id": 203,
+      "key": "Kindred",
+      "name": "Κίντρεντ"
+    },
+    "Cassiopeia": {
+      "title": "η Αγκαλιά του Ερπετού",
+      "id": 69,
+      "key": "Cassiopeia",
+      "name": "Κασσιόπη"
+    },
+    "Maokai": {
+      "title": "το Ζωντανό Δέντρο",
+      "id": 57,
+      "key": "Maokai",
+      "name": "Μαοκάι"
+    },
+    "Ornn": {
+      "title": "ο Σμιλευτής των Βουνών",
+      "id": 516,
+      "key": "Ornn",
+      "name": "Ορν"
+    },
+    "Thresh": {
+      "title": "ο Δεσμοφύλακας των Ψυχών",
+      "id": 412,
+      "key": "Thresh",
+      "name": "Θρες"
+    },
+    "Kayle": {
+      "title": "η Δικαστής και Εκτελεστής",
+      "id": 10,
+      "key": "Kayle",
+      "name": "Κέιλ"
+    },
+    "Hecarim": {
+      "title": "η Σκιά του Πολέμου",
+      "id": 120,
+      "key": "Hecarim",
+      "name": "Χέκαριμ"
+    },
+    "Khazix": {
+      "title": "ο Εκτελεστής του Κενού",
+      "id": 121,
+      "key": "Khazix",
+      "name": "Κα'Ζιξ"
+    },
+    "Olaf": {
+      "title": "ο Μπερζέρκερ",
+      "id": 2,
+      "key": "Olaf",
+      "name": "Όλαφ"
+    },
+    "Ziggs": {
+      "title": "ο Μαγοτεχνικός Μπουρλοτιέρης",
+      "id": 115,
+      "key": "Ziggs",
+      "name": "Ζιγκζ"
+    },
+    "Syndra": {
+      "title": "η Σκοτεινή Βασίλισσα",
+      "id": 134,
+      "key": "Syndra",
+      "name": "Σίντρα"
+    },
+    "DrMundo": {
+      "title": "ο Σαδιστής Γιατρός του Ζάουν",
+      "id": 36,
+      "key": "DrMundo",
+      "name": "Δρ. Μούντο"
+    },
+    "Karma": {
+      "title": "η Πεφωτισμένη",
+      "id": 43,
+      "key": "Karma",
+      "name": "Κάρμα"
+    },
+    "Annie": {
+      "title": "το Τέκνο του Σκότους",
+      "id": 1,
+      "key": "Annie",
+      "name": "Άνι"
+    },
+    "Akali": {
+      "title": "η Γροθιά της Σκιάς",
+      "id": 84,
+      "key": "Akali",
+      "name": "Ακάλι"
+    },
+    "Volibear": {
+      "title": "η Οργή του Κεραυνού",
+      "id": 106,
+      "key": "Volibear",
+      "name": "Βόλιμπεαρ"
+    },
+    "Yasuo": {
+      "title": "ο Ασυγχώρητος",
+      "id": 157,
+      "key": "Yasuo",
+      "name": "Υασούο"
+    },
+    "Kennen": {
+      "title": "το Μάτι του Κυκλώνα",
+      "id": 85,
+      "key": "Kennen",
+      "name": "Κένεν"
+    },
+    "Rengar": {
+      "title": "ο Ένδοξος Κυνηγός",
+      "id": 107,
+      "key": "Rengar",
+      "name": "Ρένγκαρ"
+    },
+    "Ryze": {
+      "title": "ο Ρουνικός Μάγος",
+      "id": 13,
+      "key": "Ryze",
+      "name": "Ράιζ"
+    },
+    "Shen": {
+      "title": "το Μάτι του Λυκόφωτος",
+      "id": 98,
+      "key": "Shen",
+      "name": "Σεν"
+    },
+    "Zac": {
+      "title": "το Μυστικό Όπλο",
+      "id": 154,
+      "key": "Zac",
+      "name": "Ζακ"
+    },
+    "Talon": {
+      "title": "η Σκιά της Λεπίδας",
+      "id": 91,
+      "key": "Talon",
+      "name": "Τάλον"
+    },
+    "Swain": {
+      "title": "ο Μέγας Στρατηγός της Νόξους",
+      "id": 50,
+      "key": "Swain",
+      "name": "Σουέιν"
+    },
+    "Bard": {
+      "title": "ο Αλλόκοσμος Οδοιπόρος",
+      "id": 432,
+      "key": "Bard",
+      "name": "Βάρδος"
+    },
+    "Sion": {
+      "title": "ο Απέθαντος Κολοσσός",
+      "id": 14,
+      "key": "Sion",
+      "name": "Σάιον"
+    },
+    "Vayne": {
+      "title": "η Κυνηγός της Νύχτας",
+      "id": 67,
+      "key": "Vayne",
+      "name": "Βέιν"
+    },
+    "Nasus": {
+      "title": "ο Φύλακας της Άμμου",
+      "id": 75,
+      "key": "Nasus",
+      "name": "Νάσους"
+    },
+    "Kayn": {
+      "title": "ο Θεριστής των Ψυχών",
+      "id": 141,
+      "key": "Kayn",
+      "name": "Κέιν"
+    },
+    "TwistedFate": {
+      "title": "ο Μέγας Χαρτοπαίκτης",
+      "id": 4,
+      "key": "TwistedFate",
+      "name": "Τουίστεντ Φέιτ"
+    },
+    "Chogath": {
+      "title": "ο Τρόμος του Κενού",
+      "id": 31,
+      "key": "Chogath",
+      "name": "Τσο'Γκαθ"
+    },
+    "Udyr": {
+      "title": "ο Πνευματοβάτης",
+      "id": 77,
+      "key": "Udyr",
+      "name": "Ούντιρ"
+    },
+    "Lucian": {
+      "title": "ο Μαχητής του Φωτός",
+      "id": 236,
+      "key": "Lucian",
+      "name": "Λούσιαν"
+    },
+    "Ivern": {
+      "title": "ο Πράσινος Πατέρας",
+      "id": 427,
+      "key": "Ivern",
+      "name": "Άιβερν"
+    },
+    "Leona": {
+      "title": "η Υπέρλαμπρη Αυγή",
+      "id": 89,
+      "key": "Leona",
+      "name": "Λεόνα"
+    },
+    "Caitlyn": {
+      "title": "η Σερίφης του Πιλτόβερ",
+      "id": 51,
+      "key": "Caitlyn",
+      "name": "Κέιτλιν"
+    },
+    "Sejuani": {
+      "title": "η Οργή του Βορρά",
+      "id": 113,
+      "key": "Sejuani",
+      "name": "Σεζουάνι"
+    },
+    "Nocturne": {
+      "title": "ο Αιώνιος Εφιάλτης",
+      "id": 56,
+      "key": "Nocturne",
+      "name": "Νόκτουρν"
+    },
+    "Zilean": {
+      "title": "ο Φύλακας του Χρόνου",
+      "id": 26,
+      "key": "Zilean",
+      "name": "Ζίλεαν"
+    },
+    "Azir": {
+      "title": "ο Αυτοκράτορας της Άμμου",
+      "id": 268,
+      "key": "Azir",
+      "name": "Αζίρ"
+    },
+    "Rumble": {
+      "title": "ο Μηχανικός Μπελάς",
+      "id": 68,
+      "key": "Rumble",
+      "name": "Ραμπλ"
+    },
+    "Morgana": {
+      "title": "η Έκπτωτη Άγγελος",
+      "id": 25,
+      "key": "Morgana",
+      "name": "Μοργκάνα"
+    },
+    "Taliyah": {
+      "title": "το Σπουργίτι της Σουρίμα",
+      "id": 163,
+      "key": "Taliyah",
+      "name": "Τάλια"
+    },
+    "Teemo": {
+      "title": "ο Αεικίνητος Ανιχνευτής",
+      "id": 17,
+      "key": "Teemo",
+      "name": "Τίμο"
+    },
+    "Urgot": {
+      "title": "ο Πάνοπλος Γίγαντας",
+      "id": 6,
+      "key": "Urgot",
+      "name": "Ούργκοτ"
+    },
+    "Amumu": {
+      "title": "η Θλιμμένη Μούμια",
+      "id": 32,
+      "key": "Amumu",
+      "name": "Αμούμου"
+    },
+    "Galio": {
+      "title": "ο Κολοσσός",
+      "id": 3,
+      "key": "Galio",
+      "name": "Γκάλιο"
+    },
+    "Heimerdinger": {
+      "title": "ο Αναγνωρισμένος Εφευρέτης",
+      "id": 74,
+      "key": "Heimerdinger",
+      "name": "Χάιμερντιγκερ"
+    },
+    "Anivia": {
+      "title": "ο Κρυοφοίνικας",
+      "id": 34,
+      "key": "Anivia",
+      "name": "Ανίβια"
+    },
+    "Ashe": {
+      "title": "η Τοξότρια των Πάγων",
+      "id": 22,
+      "key": "Ashe",
+      "name": "Ας"
+    },
+    "Velkoz": {
+      "title": "το Μάτι του Κενού",
+      "id": 161,
+      "key": "Velkoz",
+      "name": "Βελ'Κοζ"
+    },
+    "Singed": {
+      "title": "ο Τρελός Χημικός",
+      "id": 27,
+      "key": "Singed",
+      "name": "Σιντζντ"
+    },
+    "Skarner": {
+      "title": "ο Κρυστάλλινος Προστάτης",
+      "id": 72,
+      "key": "Skarner",
+      "name": "Σκάρνερ"
+    },
+    "Varus": {
+      "title": "το Βέλος της Ανταπόδοσης",
+      "id": 110,
+      "key": "Varus",
+      "name": "Βάρους"
+    },
+    "Twitch": {
+      "title": "ο Μολυσμένος Αρουραίος",
+      "id": 29,
+      "key": "Twitch",
+      "name": "Τουίτς"
+    },
+    "Garen": {
+      "title": "η Δύναμη της Ντεμάσια",
+      "id": 86,
+      "key": "Garen",
+      "name": "Γκάρεν"
+    },
+    "Blitzcrank": {
+      "title": "το Μεγάλο Ατμοκίνητο Γκόλεμ",
+      "id": 53,
+      "key": "Blitzcrank",
+      "name": "Μπλίτζκρανκ"
+    },
+    "MasterYi": {
+      "title": "ο Ξιφομάχος του Γουτζού",
+      "id": 11,
+      "key": "MasterYi",
+      "name": "Μάστερ Γι"
+    },
+    "Elise": {
+      "title": "η Βασίλισσα Αράχνη",
+      "id": 60,
+      "key": "Elise",
+      "name": "Ελίζ"
+    },
+    "Alistar": {
+      "title": "ο Μινώταυρος",
+      "id": 12,
+      "key": "Alistar",
+      "name": "Άλισταρ"
+    },
+    "Katarina": {
+      "title": "η Ύπουλη Λεπίδα",
+      "id": 55,
+      "key": "Katarina",
+      "name": "Καταρίνα"
+    },
+    "Ekko": {
+      "title": "το Αγόρι που Θρυμμάτισε τον Χρόνο",
+      "id": 245,
+      "key": "Ekko",
+      "name": "Έκκο"
+    },
+    "Mordekaiser": {
+      "title": "το Σιδηρούν Φάντασμα",
+      "id": 82,
+      "key": "Mordekaiser",
+      "name": "Μορντεκάιζερ"
+    },
+    "Lulu": {
+      "title": "η Νεραϊδομάγισσα",
+      "id": 117,
+      "key": "Lulu",
+      "name": "Λούλου"
+    },
+    "Camille": {
+      "title": "η Ατσάλινη Σκιά",
+      "id": 164,
+      "key": "Camille",
+      "name": "Καμίλ"
+    },
+    "Aatrox": {
+      "title": "η Λεπίδα των Ντάρκιν",
+      "id": 266,
+      "key": "Aatrox",
+      "name": "Άατροξ"
+    },
+    "Draven": {
+      "title": "ο Ένδοξος Εκτελεστής",
+      "id": 119,
+      "key": "Draven",
+      "name": "Ντρέιβεν"
+    },
+    "TahmKench": {
+      "title": "ο Βασιλιάς του Ποταμού",
+      "id": 223,
+      "key": "TahmKench",
+      "name": "Ταμ Κεντς"
+    },
+    "Pantheon": {
+      "title": "ο Τεχνίτης του Πολέμου",
+      "id": 80,
+      "key": "Pantheon",
+      "name": "Πάνθεον"
+    },
+    "XinZhao": {
+      "title": "ο Αριστοκράτης της Ντεμάσια",
+      "id": 5,
+      "key": "XinZhao",
+      "name": "Ζιν Ζάο"
+    },
+    "AurelionSol": {
+      "title": "ο Σφυρηλάτης των Άστρων",
+      "id": 136,
+      "key": "AurelionSol",
+      "name": "Ωρέλιον Σολ"
+    },
+    "LeeSin": {
+      "title": "ο Τυφλός Μοναχός",
+      "id": 64,
+      "key": "LeeSin",
+      "name": "Λι Σιν"
+    },
+    "Taric": {
+      "title": "η Ασπίδα του Βάλοραν",
+      "id": 44,
+      "key": "Taric",
+      "name": "Τάρικ"
+    },
+    "Malzahar": {
+      "title": "ο Προφήτης του Κενού",
+      "id": 90,
+      "key": "Malzahar",
+      "name": "Μάλζαχαρ"
+    },
+    "Kaisa": {
+      "title": "η Κόρη του Κενού",
+      "id": 145,
+      "key": "Kaisa",
+      "name": "Κάι'Σα"
+    },
+    "Diana": {
+      "title": "η Καταφρόνια της Σελήνης",
+      "id": 131,
+      "key": "Diana",
+      "name": "Ντιάνα"
+    },
+    "Tristana": {
+      "title": "το Πυροβολικό των Γιόρντλ",
+      "id": 18,
+      "key": "Tristana",
+      "name": "Τριστάνα"
+    },
+    "RekSai": {
+      "title": "η Υποχθόνια Κυνηγός",
+      "id": 421,
+      "key": "RekSai",
+      "name": "Ρεκ'Σάι"
+    },
+    "Vladimir": {
+      "title": "ο Πορφυρός Θεριστής",
+      "id": 8,
+      "key": "Vladimir",
+      "name": "Βλάντιμιρ"
+    },
+    "JarvanIV": {
+      "title": "το Υπόδειγμα της Ντεμάσια",
+      "id": 59,
+      "key": "JarvanIV",
+      "name": "Τζάρβαν ο Δ'"
+    },
+    "Nami": {
+      "title": "η Εκλεκτή της Παλίρροιας",
+      "id": 267,
+      "key": "Nami",
+      "name": "Νάμι"
+    },
+    "Jhin": {
+      "title": "ο Βιρτουόζος",
+      "id": 202,
+      "key": "Jhin",
+      "name": "Τζιν"
+    },
+    "Soraka": {
+      "title": "το Παιδί των Άστρων",
+      "id": 16,
+      "key": "Soraka",
+      "name": "Σοράκα"
+    },
+    "Veigar": {
+      "title": "ο Μικροσκοπικός Άρχοντας του Κακού",
+      "id": 45,
+      "key": "Veigar",
+      "name": "Βέιγκαρ"
+    },
+    "Janna": {
+      "title": "η Οργή της Καταιγίδας",
+      "id": 40,
+      "key": "Janna",
+      "name": "Τζάνα"
+    },
+    "Nautilus": {
+      "title": "ο Τιτάνας του Βυθού",
+      "id": 111,
+      "key": "Nautilus",
+      "name": "Νότιλους"
+    },
+    "Evelynn": {
+      "title": "η Αγκαλιά της Οδύνης",
+      "id": 28,
+      "key": "Evelynn",
+      "name": "Έβελιν"
+    },
+    "Gragas": {
+      "title": "ο Καβγατζής",
+      "id": 79,
+      "key": "Gragas",
+      "name": "Γκράγκας"
+    },
+    "Zed": {
+      "title": "ο Άρχοντας των Σκιών",
+      "id": 238,
+      "key": "Zed",
+      "name": "Ζεντ"
+    },
+    "Vi": {
+      "title": "η Τιμωρός του Πιλτόβερ",
+      "id": 254,
+      "key": "Vi",
+      "name": "Βάι"
+    },
+    "KogMaw": {
+      "title": "το Στόμα της Αβύσσου",
+      "id": 96,
+      "key": "KogMaw",
+      "name": "Κογκ'Μο"
+    },
+    "Ahri": {
+      "title": "η Αλεπού με τις Εννιά Ουρές",
+      "id": 103,
+      "key": "Ahri",
+      "name": "Άρι"
+    },
+    "Quinn": {
+      "title": "τα Φτερά της Ντεμάσια",
+      "id": 133,
+      "key": "Quinn",
+      "name": "Κουίν"
+    },
+    "Leblanc": {
+      "title": "η Πλανεύτρα",
+      "id": 7,
+      "key": "Leblanc",
+      "name": "ΛεΜπλάν"
+    },
+    "Ezreal": {
+      "title": "ο Μάγος Εξερευνητής",
+      "id": 81,
+      "key": "Ezreal",
+      "name": "Έζρεαλ"
+    }
+  }
+}

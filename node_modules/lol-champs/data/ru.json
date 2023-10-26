@@ -1,0 +1,846 @@
+{
+  "type": "champion",
+  "version": "8.8.1",
+  "data": {
+    "MonkeyKing": {
+      "title": "Царь обезьян",
+      "id": 62,
+      "key": "MonkeyKing",
+      "name": "Вуконг"
+    },
+    "Jax": {
+      "title": "Великий мастер оружия",
+      "id": 24,
+      "key": "Jax",
+      "name": "Джакс"
+    },
+    "Fiddlesticks": {
+      "title": "Предвестник гибели",
+      "id": 9,
+      "key": "Fiddlesticks",
+      "name": "Фиддлстикс"
+    },
+    "Shaco": {
+      "title": "Демонический шут",
+      "id": 35,
+      "key": "Shaco",
+      "name": "Шако"
+    },
+    "Warwick": {
+      "title": "Освобожденный гнев Зауна",
+      "id": 19,
+      "key": "Warwick",
+      "name": "Варвик"
+    },
+    "Xayah": {
+      "title": "Бунтарка",
+      "id": 498,
+      "key": "Xayah",
+      "name": "Шая"
+    },
+    "Nidalee": {
+      "title": "Дикая охотница",
+      "id": 76,
+      "key": "Nidalee",
+      "name": "Нидали"
+    },
+    "Zyra": {
+      "title": "Повелительница терний",
+      "id": 143,
+      "key": "Zyra",
+      "name": "Зайра"
+    },
+    "Kled": {
+      "title": "Сварливый кавалерист",
+      "id": 240,
+      "key": "Kled",
+      "name": "Клед"
+    },
+    "Brand": {
+      "title": "Пылающее возмездие",
+      "id": 63,
+      "key": "Brand",
+      "name": "Брэнд"
+    },
+    "Rammus": {
+      "title": "Броненосец",
+      "id": 33,
+      "key": "Rammus",
+      "name": "Раммус"
+    },
+    "Illaoi": {
+      "title": "Жрица Матери Глубин",
+      "id": 420,
+      "key": "Illaoi",
+      "name": "Иллаой"
+    },
+    "Corki": {
+      "title": "Отважный бомбардир",
+      "id": 42,
+      "key": "Corki",
+      "name": "Корки"
+    },
+    "Braum": {
+      "title": "Сердце Фрельйорда",
+      "id": 201,
+      "key": "Braum",
+      "name": "Браум"
+    },
+    "Darius": {
+      "title": "Рука Ноксуса",
+      "id": 122,
+      "key": "Darius",
+      "name": "Дариус"
+    },
+    "Tryndamere": {
+      "title": "Король варваров",
+      "id": 23,
+      "key": "Tryndamere",
+      "name": "Триндамир"
+    },
+    "MissFortune": {
+      "title": "Охотница за головами",
+      "id": 21,
+      "key": "MissFortune",
+      "name": "Мисс Фортуна"
+    },
+    "Yorick": {
+      "title": "Пастух заблудших душ",
+      "id": 83,
+      "key": "Yorick",
+      "name": "Йорик"
+    },
+    "Xerath": {
+      "title": "Высший маг",
+      "id": 101,
+      "key": "Xerath",
+      "name": "Зерат"
+    },
+    "Sivir": {
+      "title": "Королева сражений",
+      "id": 15,
+      "key": "Sivir",
+      "name": "Сивир"
+    },
+    "Riven": {
+      "title": "Изгнанница",
+      "id": 92,
+      "key": "Riven",
+      "name": "Ривен"
+    },
+    "Orianna": {
+      "title": "Заводная леди",
+      "id": 61,
+      "key": "Orianna",
+      "name": "Орианна"
+    },
+    "Gangplank": {
+      "title": "Гроза морей",
+      "id": 41,
+      "key": "Gangplank",
+      "name": "Гангпланк"
+    },
+    "Malphite": {
+      "title": "Осколок Монолита",
+      "id": 54,
+      "key": "Malphite",
+      "name": "Мальфит"
+    },
+    "Poppy": {
+      "title": "Хранительница молота",
+      "id": 78,
+      "key": "Poppy",
+      "name": "Поппи"
+    },
+    "Lissandra": {
+      "title": "Ледяная ведьма",
+      "id": 127,
+      "key": "Lissandra",
+      "name": "Лиссандра"
+    },
+    "Jayce": {
+      "title": "Защитник завтрашнего дня",
+      "id": 126,
+      "key": "Jayce",
+      "name": "Джейс"
+    },
+    "Nunu": {
+      "title": "Наездник йети",
+      "id": 20,
+      "key": "Nunu",
+      "name": "Нуну"
+    },
+    "Trundle": {
+      "title": "Король троллей",
+      "id": 48,
+      "key": "Trundle",
+      "name": "Трандл"
+    },
+    "Karthus": {
+      "title": "Певец смерти",
+      "id": 30,
+      "key": "Karthus",
+      "name": "Картус"
+    },
+    "Graves": {
+      "title": "Беззаконник",
+      "id": 104,
+      "key": "Graves",
+      "name": "Грейвз"
+    },
+    "Zoe": {
+      "title": "Звездная посланница",
+      "id": 142,
+      "key": "Zoe",
+      "name": "Зои"
+    },
+    "Gnar": {
+      "title": "Недостающее звено",
+      "id": 150,
+      "key": "Gnar",
+      "name": "Гнар"
+    },
+    "Lux": {
+      "title": "Леди сияния",
+      "id": 99,
+      "key": "Lux",
+      "name": "Люкс"
+    },
+    "Shyvana": {
+      "title": "Полудракон",
+      "id": 102,
+      "key": "Shyvana",
+      "name": "Шивана"
+    },
+    "Renekton": {
+      "title": "Мясник из песков",
+      "id": 58,
+      "key": "Renekton",
+      "name": "Ренектон"
+    },
+    "Fiora": {
+      "title": "Бесподобный дуэлянт",
+      "id": 114,
+      "key": "Fiora",
+      "name": "Фиора"
+    },
+    "Jinx": {
+      "title": "Безбашенная хулиганка",
+      "id": 222,
+      "key": "Jinx",
+      "name": "Джинкс"
+    },
+    "Kalista": {
+      "title": "Копье возмездия",
+      "id": 429,
+      "key": "Kalista",
+      "name": "Калиста"
+    },
+    "Fizz": {
+      "title": "Морской ловкач",
+      "id": 105,
+      "key": "Fizz",
+      "name": "Физз"
+    },
+    "Kassadin": {
+      "title": "Скиталец Бездны",
+      "id": 38,
+      "key": "Kassadin",
+      "name": "Кассадин"
+    },
+    "Sona": {
+      "title": "Виртуоз струн",
+      "id": 37,
+      "key": "Sona",
+      "name": "Сона"
+    },
+    "Irelia": {
+      "title": "Танцующая с клинками",
+      "id": 39,
+      "key": "Irelia",
+      "name": "Ирелия"
+    },
+    "Viktor": {
+      "title": "Механический вестник",
+      "id": 112,
+      "key": "Viktor",
+      "name": "Виктор"
+    },
+    "Rakan": {
+      "title": "Обольститель",
+      "id": 497,
+      "key": "Rakan",
+      "name": "Рэйкан"
+    },
+    "Kindred": {
+      "title": "Вечные охотники",
+      "id": 203,
+      "key": "Kindred",
+      "name": "Киндред"
+    },
+    "Cassiopeia": {
+      "title": "Змеиная хватка",
+      "id": 69,
+      "key": "Cassiopeia",
+      "name": "Кассиопея"
+    },
+    "Maokai": {
+      "title": "Испорченный энт",
+      "id": 57,
+      "key": "Maokai",
+      "name": "Маокай"
+    },
+    "Ornn": {
+      "title": "Пламя Горных Глубин",
+      "id": 516,
+      "key": "Ornn",
+      "name": "Орн"
+    },
+    "Thresh": {
+      "title": "Страж цепей",
+      "id": 412,
+      "key": "Thresh",
+      "name": "Треш"
+    },
+    "Kayle": {
+      "title": "Судья",
+      "id": 10,
+      "key": "Kayle",
+      "name": "Кейл"
+    },
+    "Hecarim": {
+      "title": "Призрак войны",
+      "id": 120,
+      "key": "Hecarim",
+      "name": "Гекарим"
+    },
+    "Khazix": {
+      "title": "Хищник из Бездны",
+      "id": 121,
+      "key": "Khazix",
+      "name": "Ка'Зикс"
+    },
+    "Olaf": {
+      "title": "Берсерк",
+      "id": 2,
+      "key": "Olaf",
+      "name": "Олаф"
+    },
+    "Ziggs": {
+      "title": "Эксперт по хексчатке",
+      "id": 115,
+      "key": "Ziggs",
+      "name": "Зиггс"
+    },
+    "Syndra": {
+      "title": "Темная властительница",
+      "id": 134,
+      "key": "Syndra",
+      "name": "Синдра"
+    },
+    "DrMundo": {
+      "title": "Сумасшедший из Зауна",
+      "id": 36,
+      "key": "DrMundo",
+      "name": "Доктор Мундо"
+    },
+    "Karma": {
+      "title": "Просвещенная",
+      "id": 43,
+      "key": "Karma",
+      "name": "Карма"
+    },
+    "Annie": {
+      "title": "Дитя тьмы",
+      "id": 1,
+      "key": "Annie",
+      "name": "Энни"
+    },
+    "Akali": {
+      "title": "Кулак тени",
+      "id": 84,
+      "key": "Akali",
+      "name": "Акали"
+    },
+    "Volibear": {
+      "title": "Громовой рев",
+      "id": 106,
+      "key": "Volibear",
+      "name": "Волибир"
+    },
+    "Yasuo": {
+      "title": "Непрощенный",
+      "id": 157,
+      "key": "Yasuo",
+      "name": "Ясуо"
+    },
+    "Kennen": {
+      "title": "Сердце бури",
+      "id": 85,
+      "key": "Kennen",
+      "name": "Кеннен"
+    },
+    "Rengar": {
+      "title": "Охотник за трофеями",
+      "id": 107,
+      "key": "Rengar",
+      "name": "Ренгар"
+    },
+    "Ryze": {
+      "title": "Рунный маг",
+      "id": 13,
+      "key": "Ryze",
+      "name": "Райз"
+    },
+    "Shen": {
+      "title": "Око сумрака",
+      "id": 98,
+      "key": "Shen",
+      "name": "Шен"
+    },
+    "Zac": {
+      "title": "Секретное оружие",
+      "id": 154,
+      "key": "Zac",
+      "name": "Зак"
+    },
+    "Talon": {
+      "title": "Тень клинка",
+      "id": 91,
+      "key": "Talon",
+      "name": "Талон"
+    },
+    "Swain": {
+      "title": "Верховный полководец Ноксуса",
+      "id": 50,
+      "key": "Swain",
+      "name": "Свейн"
+    },
+    "Bard": {
+      "title": "Странствующий хранитель",
+      "id": 432,
+      "key": "Bard",
+      "name": "Бард"
+    },
+    "Sion": {
+      "title": "Восставший сокрушитель",
+      "id": 14,
+      "key": "Sion",
+      "name": "Сион"
+    },
+    "Vayne": {
+      "title": "Ночная охотница",
+      "id": 67,
+      "key": "Vayne",
+      "name": "Вейн"
+    },
+    "Nasus": {
+      "title": "Хранитель песков",
+      "id": 75,
+      "key": "Nasus",
+      "name": "Насус"
+    },
+    "Kayn": {
+      "title": "Сумеречный жнец",
+      "id": 141,
+      "key": "Kayn",
+      "name": "Каин"
+    },
+    "TwistedFate": {
+      "title": "Мастер карт",
+      "id": 4,
+      "key": "TwistedFate",
+      "name": "Твистед Фэйт"
+    },
+    "Chogath": {
+      "title": "Ужас Бездны",
+      "id": 31,
+      "key": "Chogath",
+      "name": "Чо'Гат"
+    },
+    "Udyr": {
+      "title": "Странник духов",
+      "id": 77,
+      "key": "Udyr",
+      "name": "Удир"
+    },
+    "Lucian": {
+      "title": "Истребитель скверны",
+      "id": 236,
+      "key": "Lucian",
+      "name": "Люциан"
+    },
+    "Ivern": {
+      "title": "Зеленый отец",
+      "id": 427,
+      "key": "Ivern",
+      "name": "Иверн"
+    },
+    "Leona": {
+      "title": "Ослепительный рассвет",
+      "id": 89,
+      "key": "Leona",
+      "name": "Леона"
+    },
+    "Caitlyn": {
+      "title": "Шериф Пилтовера",
+      "id": 51,
+      "key": "Caitlyn",
+      "name": "Кейтлин"
+    },
+    "Sejuani": {
+      "title": "Ярость севера",
+      "id": 113,
+      "key": "Sejuani",
+      "name": "Седжуани"
+    },
+    "Nocturne": {
+      "title": "Извечный кошмар",
+      "id": 56,
+      "key": "Nocturne",
+      "name": "Ноктюрн"
+    },
+    "Zilean": {
+      "title": "Хранитель времени",
+      "id": 26,
+      "key": "Zilean",
+      "name": "Зилеан"
+    },
+    "Azir": {
+      "title": "Император пустыни",
+      "id": 268,
+      "key": "Azir",
+      "name": "Азир"
+    },
+    "Rumble": {
+      "title": "Механизированная угроза",
+      "id": 68,
+      "key": "Rumble",
+      "name": "Рамбл"
+    },
+    "Morgana": {
+      "title": "Падший ангел",
+      "id": 25,
+      "key": "Morgana",
+      "name": "Моргана"
+    },
+    "Taliyah": {
+      "title": "Прядущая камни",
+      "id": 163,
+      "key": "Taliyah",
+      "name": "Талия"
+    },
+    "Teemo": {
+      "title": "Шустрый скаут",
+      "id": 17,
+      "key": "Teemo",
+      "name": "Тимо"
+    },
+    "Urgot": {
+      "title": "Дредноут",
+      "id": 6,
+      "key": "Urgot",
+      "name": "Ургот"
+    },
+    "Amumu": {
+      "title": "Печальная мумия",
+      "id": 32,
+      "key": "Amumu",
+      "name": "Амуму"
+    },
+    "Galio": {
+      "title": "Колосс",
+      "id": 3,
+      "key": "Galio",
+      "name": "Галио"
+    },
+    "Heimerdinger": {
+      "title": "Одержимый ученый",
+      "id": 74,
+      "key": "Heimerdinger",
+      "name": "Хеймердингер"
+    },
+    "Anivia": {
+      "title": "Криофеникс",
+      "id": 34,
+      "key": "Anivia",
+      "name": "Анивия"
+    },
+    "Ashe": {
+      "title": "Ледяная лучница",
+      "id": 22,
+      "key": "Ashe",
+      "name": "Эш"
+    },
+    "Velkoz": {
+      "title": "Око Бездны",
+      "id": 161,
+      "key": "Velkoz",
+      "name": "Вел'Коз"
+    },
+    "Singed": {
+      "title": "Безумный химик",
+      "id": 27,
+      "key": "Singed",
+      "name": "Синджед"
+    },
+    "Skarner": {
+      "title": "Кристальный страж",
+      "id": 72,
+      "key": "Skarner",
+      "name": "Скарнер"
+    },
+    "Varus": {
+      "title": "Стрела возмездия",
+      "id": 110,
+      "key": "Varus",
+      "name": "Варус"
+    },
+    "Twitch": {
+      "title": "Чумная крыса",
+      "id": 29,
+      "key": "Twitch",
+      "name": "Твич"
+    },
+    "Garen": {
+      "title": "Мощь Демасии",
+      "id": 86,
+      "key": "Garen",
+      "name": "Гарен"
+    },
+    "Blitzcrank": {
+      "title": "Великий паровой голем",
+      "id": 53,
+      "key": "Blitzcrank",
+      "name": "Блицкранк"
+    },
+    "MasterYi": {
+      "title": "Мечник вуджу",
+      "id": 11,
+      "key": "MasterYi",
+      "name": "Мастер Йи"
+    },
+    "Elise": {
+      "title": "Королева пауков",
+      "id": 60,
+      "key": "Elise",
+      "name": "Элиза"
+    },
+    "Alistar": {
+      "title": "Минотавр",
+      "id": 12,
+      "key": "Alistar",
+      "name": "Алистар"
+    },
+    "Katarina": {
+      "title": "Гибельный клинок",
+      "id": 55,
+      "key": "Katarina",
+      "name": "Катарина"
+    },
+    "Ekko": {
+      "title": "Покоритель времени",
+      "id": 245,
+      "key": "Ekko",
+      "name": "Экко"
+    },
+    "Mordekaiser": {
+      "title": "Железный призрак",
+      "id": 82,
+      "key": "Mordekaiser",
+      "name": "Мордекайзер"
+    },
+    "Lulu": {
+      "title": "Волшебница фей",
+      "id": 117,
+      "key": "Lulu",
+      "name": "Лулу"
+    },
+    "Camille": {
+      "title": "Стальная тень",
+      "id": 164,
+      "key": "Camille",
+      "name": "Камилла"
+    },
+    "Aatrox": {
+      "title": "Клинок даркинов",
+      "id": 266,
+      "key": "Aatrox",
+      "name": "Атрокс"
+    },
+    "Draven": {
+      "title": "Блистательный палач",
+      "id": 119,
+      "key": "Draven",
+      "name": "Дрейвен"
+    },
+    "TahmKench": {
+      "title": "Речной царь",
+      "id": 223,
+      "key": "TahmKench",
+      "name": "Таам Кенч"
+    },
+    "Pantheon": {
+      "title": "Мастер войны",
+      "id": 80,
+      "key": "Pantheon",
+      "name": "Пантеон"
+    },
+    "XinZhao": {
+      "title": "Сенешаль Демасии",
+      "id": 5,
+      "key": "XinZhao",
+      "name": "Ксин Жао"
+    },
+    "AurelionSol": {
+      "title": "Создатель звезд",
+      "id": 136,
+      "key": "AurelionSol",
+      "name": "Аурелион Сол"
+    },
+    "LeeSin": {
+      "title": "Слепой монах",
+      "id": 64,
+      "key": "LeeSin",
+      "name": "Ли Син"
+    },
+    "Taric": {
+      "title": "Щит Валорана",
+      "id": 44,
+      "key": "Taric",
+      "name": "Тарик"
+    },
+    "Malzahar": {
+      "title": "Пророк Бездны",
+      "id": 90,
+      "key": "Malzahar",
+      "name": "Мальзахар"
+    },
+    "Kaisa": {
+      "title": "Дочь Бездны",
+      "id": 145,
+      "key": "Kaisa",
+      "name": "Кай'Са"
+    },
+    "Diana": {
+      "title": "Превосходство Луны",
+      "id": 131,
+      "key": "Diana",
+      "name": "Диана"
+    },
+    "Tristana": {
+      "title": "Йордлский канонир",
+      "id": 18,
+      "key": "Tristana",
+      "name": "Тристана"
+    },
+    "RekSai": {
+      "title": "Хозяйка недр Бездны",
+      "id": 421,
+      "key": "RekSai",
+      "name": "Рек'Сай"
+    },
+    "Vladimir": {
+      "title": "Алый жнец",
+      "id": 8,
+      "key": "Vladimir",
+      "name": "Владимир"
+    },
+    "JarvanIV": {
+      "title": "Воплощение Демасии",
+      "id": 59,
+      "key": "JarvanIV",
+      "name": "Джарван IV"
+    },
+    "Nami": {
+      "title": "Повелительница морей",
+      "id": 267,
+      "key": "Nami",
+      "name": "Нами"
+    },
+    "Jhin": {
+      "title": "Виртуоз",
+      "id": 202,
+      "key": "Jhin",
+      "name": "Джин"
+    },
+    "Soraka": {
+      "title": "Звездное дитя",
+      "id": 16,
+      "key": "Soraka",
+      "name": "Сорака"
+    },
+    "Veigar": {
+      "title": "Маленький повелитель зла",
+      "id": 45,
+      "key": "Veigar",
+      "name": "Вейгар"
+    },
+    "Janna": {
+      "title": "Ярость шторма",
+      "id": 40,
+      "key": "Janna",
+      "name": "Жанна"
+    },
+    "Nautilus": {
+      "title": "Титан глубин",
+      "id": 111,
+      "key": "Nautilus",
+      "name": "Наутилус"
+    },
+    "Evelynn": {
+      "title": "Объятия агонии",
+      "id": 28,
+      "key": "Evelynn",
+      "name": "Эвелинн"
+    },
+    "Gragas": {
+      "title": "Бедокур",
+      "id": 79,
+      "key": "Gragas",
+      "name": "Грагас"
+    },
+    "Zed": {
+      "title": "Мастер теней",
+      "id": 238,
+      "key": "Zed",
+      "name": "Зед"
+    },
+    "Vi": {
+      "title": "Пилтоверский миротворец",
+      "id": 254,
+      "key": "Vi",
+      "name": "Вай"
+    },
+    "KogMaw": {
+      "title": "Пасть Бездны",
+      "id": 96,
+      "key": "KogMaw",
+      "name": "Ког'Мао"
+    },
+    "Ahri": {
+      "title": "Девятихвостая лиса",
+      "id": 103,
+      "key": "Ahri",
+      "name": "Ари"
+    },
+    "Quinn": {
+      "title": "Крылья Демасии",
+      "id": 133,
+      "key": "Quinn",
+      "name": "Квинн"
+    },
+    "Leblanc": {
+      "title": "Обманщица",
+      "id": 7,
+      "key": "Leblanc",
+      "name": "Ле Блан"
+    },
+    "Ezreal": {
+      "title": "Вольный исследователь",
+      "id": 81,
+      "key": "Ezreal",
+      "name": "Эзреаль"
+    }
+  }
+}

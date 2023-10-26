@@ -1,0 +1,846 @@
+{
+  "type": "champion",
+  "version": "8.8.1",
+  "data": {
+    "MonkeyKing": {
+      "title": "Maymun Kral",
+      "id": 62,
+      "key": "MonkeyKing",
+      "name": "Wukong"
+    },
+    "Jax": {
+      "title": "Silah Ustası",
+      "id": 24,
+      "key": "Jax",
+      "name": "Jax"
+    },
+    "Fiddlesticks": {
+      "title": "Kıyamet Habercisi",
+      "id": 9,
+      "key": "Fiddlesticks",
+      "name": "Fiddlesticks"
+    },
+    "Shaco": {
+      "title": "İblis Soytarı",
+      "id": 35,
+      "key": "Shaco",
+      "name": "Shaco"
+    },
+    "Warwick": {
+      "title": "Zaun'un Kafes Kaçkını Belası",
+      "id": 19,
+      "key": "Warwick",
+      "name": "Warwick"
+    },
+    "Xayah": {
+      "title": "Asi",
+      "id": 498,
+      "key": "Xayah",
+      "name": "Xayah"
+    },
+    "Nidalee": {
+      "title": "Yabani Avcı",
+      "id": 76,
+      "key": "Nidalee",
+      "name": "Nidalee"
+    },
+    "Zyra": {
+      "title": "Dikenli Cazibe",
+      "id": 143,
+      "key": "Zyra",
+      "name": "Zyra"
+    },
+    "Kled": {
+      "title": "Deli Bozuk Süvari",
+      "id": 240,
+      "key": "Kled",
+      "name": "Kled"
+    },
+    "Brand": {
+      "title": "İntikam Ateşi",
+      "id": 63,
+      "key": "Brand",
+      "name": "Brand"
+    },
+    "Rammus": {
+      "title": "Zırhlı Armadillo",
+      "id": 33,
+      "key": "Rammus",
+      "name": "Rammus"
+    },
+    "Illaoi": {
+      "title": "Ruhani Rehber",
+      "id": 420,
+      "key": "Illaoi",
+      "name": "Illaoi"
+    },
+    "Corki": {
+      "title": "Gözüpek Bombacı",
+      "id": 42,
+      "key": "Corki",
+      "name": "Corki"
+    },
+    "Braum": {
+      "title": "Freljord'un Yüreği",
+      "id": 201,
+      "key": "Braum",
+      "name": "Braum"
+    },
+    "Darius": {
+      "title": "Noxus'un Eli",
+      "id": 122,
+      "key": "Darius",
+      "name": "Darius"
+    },
+    "Tryndamere": {
+      "title": "Barbar Kral",
+      "id": 23,
+      "key": "Tryndamere",
+      "name": "Tryndamere"
+    },
+    "MissFortune": {
+      "title": "Ödül Avcısı",
+      "id": 21,
+      "key": "MissFortune",
+      "name": "Miss Fortune"
+    },
+    "Yorick": {
+      "title": "Ruhların Çobanı",
+      "id": 83,
+      "key": "Yorick",
+      "name": "Yorick"
+    },
+    "Xerath": {
+      "title": "Yüksek Büyücü",
+      "id": 101,
+      "key": "Xerath",
+      "name": "Xerath"
+    },
+    "Sivir": {
+      "title": "Savaş Hanımı",
+      "id": 15,
+      "key": "Sivir",
+      "name": "Sivir"
+    },
+    "Riven": {
+      "title": "Sürgün",
+      "id": 92,
+      "key": "Riven",
+      "name": "Riven"
+    },
+    "Orianna": {
+      "title": "Mekanik Kız",
+      "id": 61,
+      "key": "Orianna",
+      "name": "Orianna"
+    },
+    "Gangplank": {
+      "title": "Okyanus Şeytanı",
+      "id": 41,
+      "key": "Gangplank",
+      "name": "Gangplank"
+    },
+    "Malphite": {
+      "title": "Yektaş'tan Kopan Parça",
+      "id": 54,
+      "key": "Malphite",
+      "name": "Malphite"
+    },
+    "Poppy": {
+      "title": "Çekicin Muhafızı",
+      "id": 78,
+      "key": "Poppy",
+      "name": "Poppy"
+    },
+    "Lissandra": {
+      "title": "Buz Cadısı",
+      "id": 127,
+      "key": "Lissandra",
+      "name": "Lissandra"
+    },
+    "Jayce": {
+      "title": "Yarınların Koruyucusu",
+      "id": 126,
+      "key": "Jayce",
+      "name": "Jayce"
+    },
+    "Nunu": {
+      "title": "Yeti Süvarisi",
+      "id": 20,
+      "key": "Nunu",
+      "name": "Nunu"
+    },
+    "Trundle": {
+      "title": "Trol Kralı",
+      "id": 48,
+      "key": "Trundle",
+      "name": "Trundle"
+    },
+    "Karthus": {
+      "title": "Ölümşakıyan",
+      "id": 30,
+      "key": "Karthus",
+      "name": "Karthus"
+    },
+    "Graves": {
+      "title": "Kanun Kaçağı",
+      "id": 104,
+      "key": "Graves",
+      "name": "Graves"
+    },
+    "Zoe": {
+      "title": "Alacakaranlığın Sureti",
+      "id": 142,
+      "key": "Zoe",
+      "name": "Zoe"
+    },
+    "Gnar": {
+      "title": "Kayıp Halka",
+      "id": 150,
+      "key": "Gnar",
+      "name": "Gnar"
+    },
+    "Lux": {
+      "title": "Işık Leydisi",
+      "id": 99,
+      "key": "Lux",
+      "name": "Lux"
+    },
+    "Shyvana": {
+      "title": "Ejder Kanı",
+      "id": 102,
+      "key": "Shyvana",
+      "name": "Shyvana"
+    },
+    "Renekton": {
+      "title": "Kumların Kasabı",
+      "id": 58,
+      "key": "Renekton",
+      "name": "Renekton"
+    },
+    "Fiora": {
+      "title": "Büyük Düellocu",
+      "id": 114,
+      "key": "Fiora",
+      "name": "Fiora"
+    },
+    "Jinx": {
+      "title": "Delifişek",
+      "id": 222,
+      "key": "Jinx",
+      "name": "Jinx"
+    },
+    "Kalista": {
+      "title": "İntikam Mızrağı",
+      "id": 429,
+      "key": "Kalista",
+      "name": "Kalista"
+    },
+    "Fizz": {
+      "title": "Dalgaların Dümencisi",
+      "id": 105,
+      "key": "Fizz",
+      "name": "Fizz"
+    },
+    "Kassadin": {
+      "title": "Hiçlik Gezgini",
+      "id": 38,
+      "key": "Kassadin",
+      "name": "Kassadin"
+    },
+    "Sona": {
+      "title": "Müzik Dehası",
+      "id": 37,
+      "key": "Sona",
+      "name": "Sona"
+    },
+    "Irelia": {
+      "title": "Bıçakların Dansı",
+      "id": 39,
+      "key": "Irelia",
+      "name": "Irelia"
+    },
+    "Viktor": {
+      "title": "Makine Elçi",
+      "id": 112,
+      "key": "Viktor",
+      "name": "Viktor"
+    },
+    "Rakan": {
+      "title": "Gönülçelen",
+      "id": 497,
+      "key": "Rakan",
+      "name": "Rakan"
+    },
+    "Kindred": {
+      "title": "Madalyonun İki Yüzü",
+      "id": 203,
+      "key": "Kindred",
+      "name": "Kindred"
+    },
+    "Cassiopeia": {
+      "title": "Yılanın Şefkati",
+      "id": 69,
+      "key": "Cassiopeia",
+      "name": "Cassiopeia"
+    },
+    "Maokai": {
+      "title": "Çarpık Treant",
+      "id": 57,
+      "key": "Maokai",
+      "name": "Maokai"
+    },
+    "Ornn": {
+      "title": "Dağın Kalbindeki Ateş",
+      "id": 516,
+      "key": "Ornn",
+      "name": "Ornn"
+    },
+    "Thresh": {
+      "title": "Zincirli Gardiyan",
+      "id": 412,
+      "key": "Thresh",
+      "name": "Thresh"
+    },
+    "Kayle": {
+      "title": "Adaletin Kılıcı",
+      "id": 10,
+      "key": "Kayle",
+      "name": "Kayle"
+    },
+    "Hecarim": {
+      "title": "Savaşın Gölgesi",
+      "id": 120,
+      "key": "Hecarim",
+      "name": "Hecarim"
+    },
+    "Khazix": {
+      "title": "Hiçlik Yağmacısı",
+      "id": 121,
+      "key": "Khazix",
+      "name": "Kha'Zix"
+    },
+    "Olaf": {
+      "title": "Başıbozuk",
+      "id": 2,
+      "key": "Olaf",
+      "name": "Olaf"
+    },
+    "Ziggs": {
+      "title": "Sihirmayın Uzmanı",
+      "id": 115,
+      "key": "Ziggs",
+      "name": "Ziggs"
+    },
+    "Syndra": {
+      "title": "Gücün Karanlık Yüzü",
+      "id": 134,
+      "key": "Syndra",
+      "name": "Syndra"
+    },
+    "DrMundo": {
+      "title": "Zaun'un Delisi",
+      "id": 36,
+      "key": "DrMundo",
+      "name": "Dr. Mundo"
+    },
+    "Karma": {
+      "title": "Bilgelik Ateşi",
+      "id": 43,
+      "key": "Karma",
+      "name": "Karma"
+    },
+    "Annie": {
+      "title": "Şeytan Çekici",
+      "id": 1,
+      "key": "Annie",
+      "name": "Annie"
+    },
+    "Akali": {
+      "title": "Gölgenin Yumruğu",
+      "id": 84,
+      "key": "Akali",
+      "name": "Akali"
+    },
+    "Volibear": {
+      "title": "Kükreyen Fırtına",
+      "id": 106,
+      "key": "Volibear",
+      "name": "Volibear"
+    },
+    "Yasuo": {
+      "title": "Günahkâr Kılıç",
+      "id": 157,
+      "key": "Yasuo",
+      "name": "Yasuo"
+    },
+    "Kennen": {
+      "title": "Fırtınanın Kalbi",
+      "id": 85,
+      "key": "Kennen",
+      "name": "Kennen"
+    },
+    "Rengar": {
+      "title": "Gölge Avcı",
+      "id": 107,
+      "key": "Rengar",
+      "name": "Rengar"
+    },
+    "Ryze": {
+      "title": "Rün Büyücüsü",
+      "id": 13,
+      "key": "Ryze",
+      "name": "Ryze"
+    },
+    "Shen": {
+      "title": "Alacakaranlığın Gözü",
+      "id": 98,
+      "key": "Shen",
+      "name": "Shen"
+    },
+    "Zac": {
+      "title": "Gizli Silah",
+      "id": 154,
+      "key": "Zac",
+      "name": "Zac"
+    },
+    "Talon": {
+      "title": "Bıçağın Gölgesi",
+      "id": 91,
+      "key": "Talon",
+      "name": "Talon"
+    },
+    "Swain": {
+      "title": "Yüce Noxus Generali",
+      "id": 50,
+      "key": "Swain",
+      "name": "Swain"
+    },
+    "Bard": {
+      "title": "Kozmik Koruyucu",
+      "id": 432,
+      "key": "Bard",
+      "name": "Bard"
+    },
+    "Sion": {
+      "title": "Ölü Dev",
+      "id": 14,
+      "key": "Sion",
+      "name": "Sion"
+    },
+    "Vayne": {
+      "title": "Gece Avcısı",
+      "id": 67,
+      "key": "Vayne",
+      "name": "Vayne"
+    },
+    "Nasus": {
+      "title": "Kumların Efendisi",
+      "id": 75,
+      "key": "Nasus",
+      "name": "Nasus"
+    },
+    "Kayn": {
+      "title": "Gölge Cellat",
+      "id": 141,
+      "key": "Kayn",
+      "name": "Kayn"
+    },
+    "TwistedFate": {
+      "title": "İskambil Ustası",
+      "id": 4,
+      "key": "TwistedFate",
+      "name": "Twisted Fate"
+    },
+    "Chogath": {
+      "title": "Hiçlik'in Dehşeti",
+      "id": 31,
+      "key": "Chogath",
+      "name": "Cho'Gath"
+    },
+    "Udyr": {
+      "title": "Ruh Gezgini",
+      "id": 77,
+      "key": "Udyr",
+      "name": "Udyr"
+    },
+    "Lucian": {
+      "title": "İnfazcı",
+      "id": 236,
+      "key": "Lucian",
+      "name": "Lucian"
+    },
+    "Ivern": {
+      "title": "Doğasever Baba",
+      "id": 427,
+      "key": "Ivern",
+      "name": "Ivern"
+    },
+    "Leona": {
+      "title": "Seher Işığı",
+      "id": 89,
+      "key": "Leona",
+      "name": "Leona"
+    },
+    "Caitlyn": {
+      "title": "Piltover Şerifi",
+      "id": 51,
+      "key": "Caitlyn",
+      "name": "Caitlyn"
+    },
+    "Sejuani": {
+      "title": "Kuzeyin Hiddeti",
+      "id": 113,
+      "key": "Sejuani",
+      "name": "Sejuani"
+    },
+    "Nocturne": {
+      "title": "Ebedi Kâbus",
+      "id": 56,
+      "key": "Nocturne",
+      "name": "Nocturne"
+    },
+    "Zilean": {
+      "title": "Zaman Bekçisi",
+      "id": 26,
+      "key": "Zilean",
+      "name": "Zilean"
+    },
+    "Azir": {
+      "title": "Kumların İmparatoru",
+      "id": 268,
+      "key": "Azir",
+      "name": "Azir"
+    },
+    "Rumble": {
+      "title": "Mekanize Bela",
+      "id": 68,
+      "key": "Rumble",
+      "name": "Rumble"
+    },
+    "Morgana": {
+      "title": "Düşmüş Melek",
+      "id": 25,
+      "key": "Morgana",
+      "name": "Morgana"
+    },
+    "Taliyah": {
+      "title": "Taşların Dokuyucusu",
+      "id": 163,
+      "key": "Taliyah",
+      "name": "Taliyah"
+    },
+    "Teemo": {
+      "title": "Çevik İzci",
+      "id": 17,
+      "key": "Teemo",
+      "name": "Teemo"
+    },
+    "Urgot": {
+      "title": "Dehşet Makinesi",
+      "id": 6,
+      "key": "Urgot",
+      "name": "Urgot"
+    },
+    "Amumu": {
+      "title": "Hüzünlü Mumya",
+      "id": 32,
+      "key": "Amumu",
+      "name": "Amumu"
+    },
+    "Galio": {
+      "title": "Heybetli Muhafız",
+      "id": 3,
+      "key": "Galio",
+      "name": "Galio"
+    },
+    "Heimerdinger": {
+      "title": "Saygın Mucit",
+      "id": 74,
+      "key": "Heimerdinger",
+      "name": "Heimerdinger"
+    },
+    "Anivia": {
+      "title": "Buz Ankası",
+      "id": 34,
+      "key": "Anivia",
+      "name": "Anivia"
+    },
+    "Ashe": {
+      "title": "Ayaz Okçu",
+      "id": 22,
+      "key": "Ashe",
+      "name": "Ashe"
+    },
+    "Velkoz": {
+      "title": "Hiçlik'in Gözü",
+      "id": 161,
+      "key": "Velkoz",
+      "name": "Vel'Koz"
+    },
+    "Singed": {
+      "title": "Deli Kimyager",
+      "id": 27,
+      "key": "Singed",
+      "name": "Singed"
+    },
+    "Skarner": {
+      "title": "Kristal Öncü",
+      "id": 72,
+      "key": "Skarner",
+      "name": "Skarner"
+    },
+    "Varus": {
+      "title": "İntikam Oku",
+      "id": 110,
+      "key": "Varus",
+      "name": "Varus"
+    },
+    "Twitch": {
+      "title": "Veba Getiren",
+      "id": 29,
+      "key": "Twitch",
+      "name": "Twitch"
+    },
+    "Garen": {
+      "title": "Demacia'nın Kudreti",
+      "id": 86,
+      "key": "Garen",
+      "name": "Garen"
+    },
+    "Blitzcrank": {
+      "title": "Büyük Buharlı Golem",
+      "id": 53,
+      "key": "Blitzcrank",
+      "name": "Blitzcrank"
+    },
+    "MasterYi": {
+      "title": "Wuju Üstadı",
+      "id": 11,
+      "key": "MasterYi",
+      "name": "Master Yi"
+    },
+    "Elise": {
+      "title": "Örümcek Kraliçe",
+      "id": 60,
+      "key": "Elise",
+      "name": "Elise"
+    },
+    "Alistar": {
+      "title": "Minotor",
+      "id": 12,
+      "key": "Alistar",
+      "name": "Alistar"
+    },
+    "Katarina": {
+      "title": "Sinsi Bıçak",
+      "id": 55,
+      "key": "Katarina",
+      "name": "Katarina"
+    },
+    "Ekko": {
+      "title": "Zamanı Kıran Çocuk",
+      "id": 245,
+      "key": "Ekko",
+      "name": "Ekko"
+    },
+    "Mordekaiser": {
+      "title": "Demir Hortlak",
+      "id": 82,
+      "key": "Mordekaiser",
+      "name": "Mordekaiser"
+    },
+    "Lulu": {
+      "title": "Peri Sihirbaz",
+      "id": 117,
+      "key": "Lulu",
+      "name": "Lulu"
+    },
+    "Camille": {
+      "title": "Çelik Gölge",
+      "id": 164,
+      "key": "Camille",
+      "name": "Camille"
+    },
+    "Aatrox": {
+      "title": "Darkin Kılıcı",
+      "id": 266,
+      "key": "Aatrox",
+      "name": "Aatrox"
+    },
+    "Draven": {
+      "title": "Görkemli Cellat",
+      "id": 119,
+      "key": "Draven",
+      "name": "Draven"
+    },
+    "TahmKench": {
+      "title": "Nehrin Kralı",
+      "id": 223,
+      "key": "TahmKench",
+      "name": "Tahm Kench"
+    },
+    "Pantheon": {
+      "title": "Savaş Üstadı",
+      "id": 80,
+      "key": "Pantheon",
+      "name": "Pantheon"
+    },
+    "XinZhao": {
+      "title": "Demacia'nın Hizmetkârı",
+      "id": 5,
+      "key": "XinZhao",
+      "name": "Xin Zhao"
+    },
+    "AurelionSol": {
+      "title": "Yıldızların Hâkimi",
+      "id": 136,
+      "key": "AurelionSol",
+      "name": "Aurelion Sol"
+    },
+    "LeeSin": {
+      "title": "Kör Keşiş",
+      "id": 64,
+      "key": "LeeSin",
+      "name": "Lee Sin"
+    },
+    "Taric": {
+      "title": "Valoran'ın Koruyucusu",
+      "id": 44,
+      "key": "Taric",
+      "name": "Taric"
+    },
+    "Malzahar": {
+      "title": "Hiçlik'in Habercisi",
+      "id": 90,
+      "key": "Malzahar",
+      "name": "Malzahar"
+    },
+    "Kaisa": {
+      "title": "Hiçlik'in Kızı",
+      "id": 145,
+      "key": "Kaisa",
+      "name": "Kai'Sa"
+    },
+    "Diana": {
+      "title": "Ay'ın Hiddeti",
+      "id": 131,
+      "key": "Diana",
+      "name": "Diana"
+    },
+    "Tristana": {
+      "title": "Yaman Topçu",
+      "id": 18,
+      "key": "Tristana",
+      "name": "Tristana"
+    },
+    "RekSai": {
+      "title": "Yeraltındaki Dehşet",
+      "id": 421,
+      "key": "RekSai",
+      "name": "Rek'Sai"
+    },
+    "Vladimir": {
+      "title": "Kızıl Ölüm",
+      "id": 8,
+      "key": "Vladimir",
+      "name": "Vladimir"
+    },
+    "JarvanIV": {
+      "title": "Demacia'nın Simgesi",
+      "id": 59,
+      "key": "JarvanIV",
+      "name": "Jarvan IV"
+    },
+    "Nami": {
+      "title": "Dalga Çağıran",
+      "id": 267,
+      "key": "Nami",
+      "name": "Nami"
+    },
+    "Jhin": {
+      "title": "Virtüöz",
+      "id": 202,
+      "key": "Jhin",
+      "name": "Jhin"
+    },
+    "Soraka": {
+      "title": "Yıldız Çocuk",
+      "id": 16,
+      "key": "Soraka",
+      "name": "Soraka"
+    },
+    "Veigar": {
+      "title": "Kötülüğün Minik Efendisi",
+      "id": 45,
+      "key": "Veigar",
+      "name": "Veigar"
+    },
+    "Janna": {
+      "title": "Fırtınanın Hiddeti",
+      "id": 40,
+      "key": "Janna",
+      "name": "Janna"
+    },
+    "Nautilus": {
+      "title": "Derinliklerin Devi",
+      "id": 111,
+      "key": "Nautilus",
+      "name": "Nautilus"
+    },
+    "Evelynn": {
+      "title": "Azabın Kucağı",
+      "id": 28,
+      "key": "Evelynn",
+      "name": "Evelynn"
+    },
+    "Gragas": {
+      "title": "Kavgacı Ayyaş",
+      "id": 79,
+      "key": "Gragas",
+      "name": "Gragas"
+    },
+    "Zed": {
+      "title": "Gölgelerin Efendisi",
+      "id": 238,
+      "key": "Zed",
+      "name": "Zed"
+    },
+    "Vi": {
+      "title": "Piltover Fedaisi",
+      "id": 254,
+      "key": "Vi",
+      "name": "Vi"
+    },
+    "KogMaw": {
+      "title": "Cehennemin Dişleri",
+      "id": 96,
+      "key": "KogMaw",
+      "name": "Kog'Maw"
+    },
+    "Ahri": {
+      "title": "Dokuz Kuyruklu Tilki",
+      "id": 103,
+      "key": "Ahri",
+      "name": "Ahri"
+    },
+    "Quinn": {
+      "title": "Demacia'nın Kanatları ",
+      "id": 133,
+      "key": "Quinn",
+      "name": "Quinn"
+    },
+    "Leblanc": {
+      "title": "Hilekâr",
+      "id": 7,
+      "key": "Leblanc",
+      "name": "LeBlanc"
+    },
+    "Ezreal": {
+      "title": "Dahi Kâşif",
+      "id": 81,
+      "key": "Ezreal",
+      "name": "Ezreal"
+    }
+  }
+}
