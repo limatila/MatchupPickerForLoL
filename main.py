@@ -109,4 +109,4 @@ while True:
 
 
 #Ending============================================
-input("Press enter to close...")
+input("Press enter to close CMD...")
