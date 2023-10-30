@@ -1,2 +1,3 @@
 node getNames.js 
-main.py 
+main.py  @REM if a error occurs, will just crash.
+exit
