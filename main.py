@@ -73,19 +73,21 @@ BOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red
 #*: Open realtime stats in OP.GG website
 def statsOpener(laneCompare):
     print("")
-    statsOpener = input("Do you wanna open OP.GG stats? (Y/N): ")
-    if(statsOpener == 'Y'):
-        browser = str(input("Type the name of your browser: ")) #! should check correct typing
-        if(laneCompare in ["top, mid, jungle"]):
+    statsOpener = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
+    if statsOpener == 'Y' :
+        browser = str(input("Type the name of your browser: ")) #! should check valid typing
+        if laneCompare in ["top", "mid", "jungle"]:
             print("Opening browser in 4 seconds..."); time.sleep(4);
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
-        elif(laneCompare == "bot"):
+        elif laneCompare == "bot":
             print("Opening two browsers in 4 seconds..."); time.sleep(4);
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/bot?region=global&tier=diamond_plus&target_champion={red_one}\"")
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_two}/build/support?region=global&tier=diamond_plus&target_champion={red_two}\"")
-    elif(statsOpener == "N"):
+    elif statsOpener == "N" :
         print("ok, proceeding...")
-    else: print("Invalid option in statsOpener! Code 4")
+    else: 
+        print("Invalid option in statsOpener! Code 4")
+        statsOpener(laneCompare)
 
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
 print("Inputting \"0\" in any of the spaces will stop the execution."); time.sleep(1)
