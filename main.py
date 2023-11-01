@@ -8,7 +8,7 @@ import time
 
 #Data----------------------------------------------
 with open("./data/names.txt", 'r') as namesFile: #change path to correct source
-    allChamps = namesFile.read().split(",")
+    allChamps = namesFile.read().split(",") #! champions with spaces must be shortened.
 
 dividedChamps = {};
 
@@ -76,18 +76,20 @@ def statsOpener(laneCompare):
     statsOpener = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
     if statsOpener == 'Y' :
         browser = str(input("Type the name of your browser: ")) #! should check valid typing
-        if laneCompare in ["top", "mid", "jungle"]:
-            print("Opening browser in 4 seconds..."); time.sleep(4);
+        if laneCompare in ["top", "mid", "jungle"]:                         
+            print("Opening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
+            print("browser opened correctly! next guess...")
         elif laneCompare == "bot":
-            print("Opening two browsers in 4 seconds..."); time.sleep(4);
+            print("Opening two browsers in 2 seconds..."); time.sleep(2.5); #? maybe select what region would be too slow
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/bot?region=global&tier=diamond_plus&target_champion={red_one}\"")
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_two}/build/support?region=global&tier=diamond_plus&target_champion={red_two}\"")
+            print("browser opened correctly! next guess...")
     elif statsOpener == "N" :
-        print("ok, proceeding...")
+        print("ok, proceeding to next guess...")
     else: 
         print("Invalid option in statsOpener! Code 4")
-        statsOpener(laneCompare)
+        statsOpener(laneCompare) #! Will error
 
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
 print("Inputting \"0\" in any of the spaces will stop the execution."); time.sleep(1)
