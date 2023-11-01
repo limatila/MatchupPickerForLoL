@@ -6,6 +6,13 @@ import secrets
 import os
 import time
 
+os.system("TITLE Matchup Picker For LoL")
+print("Welcome to this program made by Átila Lima")
+print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
+#print("Starting in 7 seconds..."); time.sleep(7)
+os.system('cls' if os.name == 'nt' else 'clear') #'nt' = windows
+time.sleep(0.3)
+
 #Data----------------------------------------------
 with open("./data/names.txt", 'r') as namesFile: #change path to correct source
     allChamps = namesFile.read().split(",") #! champions with spaces must be shortened.
@@ -66,7 +73,7 @@ BOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red
                 iterationCounter += 1
                 pickMatchup("5v5")
     else:
-        print("Invalid option in pickMatchup()! \nCODE_3")    
+        print("Invalid lane option in pickMatchup()! \nCODE_3")
         return "Code 3"
     #!don't matter the exception, one iteration will ocurr always.
 
@@ -79,12 +86,12 @@ def statsOpener(laneCompare):
         if laneCompare in ["top", "mid", "jungle"]:                         
             print("Opening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
-            print("browser opened correctly! next guess...")
+            print("browser opened! next guess...")
         elif laneCompare == "bot":
             print("Opening two browsers in 2 seconds..."); time.sleep(2.5); #? maybe select what region would be too slow
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/bot?region=global&tier=diamond_plus&target_champion={red_one}\"")
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_two}/build/support?region=global&tier=diamond_plus&target_champion={red_two}\"")
-            print("browser opened correctly! next guess...")
+            print("browser opened! next guess...")
     elif statsOpener == "N" :
         print("ok, proceeding to next guess...")
     else: 
@@ -92,25 +99,27 @@ def statsOpener(laneCompare):
         statsOpener(laneCompare) #! Will error
 
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
-print("Inputting \"0\" in any of the spaces will stop the execution."); time.sleep(1)
+print("Inputting \"0\" or a blank space in any of the spaces will stop the execution."); time.sleep(1)
 
 while True:
     print("**********************")
     inputLane = str(input("Which lane do you desire to try?: "))
-    inputNumReps = str(input("How many times do you wan't to repeat it?: "))
+    inputNumReps = int(input("How many times do you wan't to repeat it?: "))
 
     #formatting to ideal
     if inputLane == "jg": inputLane = "jungle";
-    inputLane.strip().lower(); inputNumReps.strip().lower();
+    inputLane.strip().lower();
 
-    if "0" in [inputLane, inputNumReps]:#decide where the program stops
-        print("")
-        print("Program stopped by user. Code 0");
-        break;
-    else:
-        print("")
-        pickMatchup(inputLane, totalLanes= int(inputNumReps))
+    #Ending =========================================
+    for input in (inputLane, str(inputNumReps)):
+        if input.isspace() == True:
+            Exception("Program stopped by user. Code 0")
 
-
-#Ending============================================
-input("Press enter to close CMD...")
+    if "0" in [inputLane, str(inputNumReps)]:
+        print("clue")
+        raise Exception("Program stopped by user. Code 0"); 
+    else: #*don't want to exit? ok, continues.
+        print("no clue")
+        pickMatchup(inputLane, inputNumReps)
+    
+    
