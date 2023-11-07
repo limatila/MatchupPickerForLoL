@@ -80,10 +80,10 @@ BOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red
 #*: Open realtime stats in OP.GG website
 def statsOpener(laneCompare):
     print("")
-    statsOpener = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
-    if statsOpener == 'Y' :
+    openBrowserOpt = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
+    if openBrowserOpt == 'Y' :
         browser = str(input("Type the name of your browser: ")) #! should check valid typing
-        if laneCompare in ["top", "mid", "jungle"]:                         
+        if laneCompare in ["top", "mid", "jungle"]:
             print("Opening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
             print("browser opened! next guess...")
@@ -92,7 +92,7 @@ def statsOpener(laneCompare):
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/bot?region=global&tier=diamond_plus&target_champion={red_one}\"")
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_two}/build/support?region=global&tier=diamond_plus&target_champion={red_two}\"")
             print("browser opened! next guess...")
-    elif statsOpener == "N" :
+    elif openBrowserOpt == "N" :
         print("ok, proceeding to next guess...")
     else: 
         print("Invalid option in statsOpener! Code 4")
