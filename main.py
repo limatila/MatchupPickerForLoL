@@ -10,7 +10,8 @@ os.system("TITLE Matchup Picker For LoL")
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
 #print("Starting in 7 seconds..."); time.sleep(7)
-os.system('cls' if os.name == 'nt' else 'clear') #'nt' = windows
+os.system("cls" if "nt" in os.name
+           else 'clear') #'nt' = windows
 time.sleep(0.3)
 
 #Data----------------------------------------------
@@ -24,6 +25,7 @@ iterationCounter = 1 #for repeating
 #* random picker into local names stored
 def pickMatchup( lane, totalLanes = 1 ): 
     global blue_one, blue_two, red_one, red_two
+    print("")
 
     if lane in ["top", "mid", "jungle"]:                #*every other then botlane
         blue_one = secrets.choice(allChamps)
@@ -51,12 +53,10 @@ def pickMatchup( lane, totalLanes = 1 ):
         red_thr_mid = secrets.choice(allChamps)
         red_four_bot = secrets.choice(allChamps)
         red_fiv_bot = secrets.choice(allChamps)
-        print(f"""TOP: {blue_one_top} X {red_one_top}?
-JUNGLE: {blue_two_jg} X {red_two_jg}?
-MIDDLE: {blue_thr_mid} X {red_thr_mid}?
-BOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red_fiv_bot}?
-
-""")
+        print(f"\nTOP: {blue_one_top} X {red_one_top}? \
+                \nJUNGLE: {blue_two_jg} X {red_two_jg}? \
+                \nMIDDLE: {blue_thr_mid} X {red_thr_mid}? \
+                \nBOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red_fiv_bot}?\n")
         global iterationCounter;
     
     #To repeat operations
@@ -78,48 +78,46 @@ BOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red
     #!don't matter the exception, one iteration will ocurr always.
 
 #*: Open realtime stats in OP.GG website
-def statsOpener(laneCompare):
+def statsOpener(laneToCompare):
     print("")
-    openBrowserOpt = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
-    if openBrowserOpt == 'Y' :
-        browser = str(input("Type the name of your browser: ")) #! should check valid typing
-        if laneCompare in ["top", "mid", "jungle"]:
+    inpOpenBrowser = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
+    if inpOpenBrowser == 'Y' :
+        browser = input("Type the name of your browser: ") #! should check valid typing
+        if laneToCompare in ["top", "mid", "jungle"]:
             print("Opening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
-            os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
+            os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneToCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
             print("browser opened! next guess...")
-        elif laneCompare == "bot":
+        elif laneToCompare == "bot":
             print("Opening two browsers in 2 seconds..."); time.sleep(2.5); #? maybe select what region would be too slow
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/bot?region=global&tier=diamond_plus&target_champion={red_one}\"")
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_two}/build/support?region=global&tier=diamond_plus&target_champion={red_two}\"")
             print("browser opened! next guess...")
-    elif openBrowserOpt == "N" :
-        print("ok, proceeding to next guess...")
+        
+        print("")
+    elif inpOpenBrowser == "N" :
+        print("ok, proceeding...")
     else: 
-        print("Invalid option in statsOpener! Code 4")
-        statsOpener(laneCompare) #! Will error
+        raise Exception("Invalid option in statsOpener! Code 4")
 
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
-print("Inputting \"0\" or a blank space in any of the spaces will stop the execution."); time.sleep(1)
+print("Inputting a blank space in the lane section or a \"0\" in the repetition section will stop the execution."); time.sleep(1)
 
 while True:
     print("**********************")
-    inputLane = str(input("Which lane do you desire to try?: "))
-    inputNumReps = int(input("How many times do you wan't to repeat it?: "))
+    inpLane = input("Which lane do you desire to try?: ")
+    inpNumReps = int(input("How many times do you wan't to repeat it?: "))
 
     #formatting to ideal
-    if inputLane == "jg": inputLane = "jungle";
-    inputLane.strip().lower();
+    if inpLane == "jg": inpLane = "jungle";
+    inpLane.strip().lower();
 
     #Ending =========================================
-    for input in (inputLane, str(inputNumReps)):
-        if input.isspace() == True:
-            Exception("Program stopped by user. Code 0")
-
-    if "0" in [inputLane, str(inputNumReps)]:
-        print("clue")
-        raise Exception("Program stopped by user. Code 0"); 
-    else: #*don't want to exit? ok, continues.
-        print("no clue")
-        pickMatchup(inputLane, inputNumReps)
-    
+    for entry in (inpLane, str(inpNumReps)):
+        if entry.isspace() == True:
+            raise Exception("Program stopped by user. Goodbye! \nCode 0")
+        
+    if "0" in [inpLane, str(inpNumReps)]:
+        raise Exception("Program stopped by user. Goodbye! \nCode 0"); 
+    else:   #*don't want to exit? ok, continues.
+        pickMatchup(inpLane, inpNumReps)
     
