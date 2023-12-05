@@ -78,9 +78,13 @@ def pickMatchup( lane, totalLanes = 1 ):
     #!don't matter the exception, one iteration will ocurr always.
 
 #*: Open realtime stats in OP.GG website
+inpOpemBrowser = undefined;
 def statsOpener(laneToCompare):
     print("")
-    inpOpenBrowser = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
+
+    if inpOpenBrowser == undefined: #if undefined, grab the desired.
+        inpOpenBrowser = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
+
     if inpOpenBrowser == 'Y' :
         browser = input("Type the name of your browser: ") #! should check valid typing
         if laneToCompare in ["top", "mid", "jungle"]:
@@ -114,10 +118,14 @@ while True:
     #Ending =========================================
     for entry in (inpLane, str(inpNumReps)):
         if entry.isspace() == True:
-            raise Exception("Program stopped by user. Goodbye! \nCode 0")
+            print("")
+            print("Program stopped by user. Goodbye! \nCode 0")
+            break;
         
     if "0" in [inpLane, str(inpNumReps)]:
-        raise Exception("Program stopped by user. Goodbye! \nCode 0"); 
+        print("")
+        print("Program stopped by user. Goodbye! \nCode 0"); 
+        break;
     else:   #*don't want to exit? ok, continues.
         pickMatchup(inpLane, inpNumReps)
     
