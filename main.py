@@ -1,27 +1,32 @@
 # 1.1 a random matchuper for league of legends lane phase thinking training
 # Operated buy inputs in terminal.
 #! should be divided by Lanes
+#! names to change in browser opening: spaced names, wukong, chogath, 
 
 import secrets
 import os
 import time
-
+def clearConsole():
+    os.system("CLS" if "nt" in os.name
+            else 'CLEAR') #'nt' = windows
+    
+clearConsole()
 os.system("TITLE Matchup Picker For LoL")
+
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
 #print("Starting in 7 seconds..."); time.sleep(7)
-os.system("cls" if "nt" in os.name
-           else 'clear') #'nt' = windows
+
+clearConsole()
 time.sleep(0.3)
 
-#Data----------------------------------------------
+#Data--------------------------------------------------------
 with open("./data/names.txt", 'r') as namesFile: #change path to correct source
     allChamps = namesFile.read().split(",") #! champions with spaces must be shortened.
 
 dividedChamps = {};
 
-#Main execution------------------------------------
-iterationCounter = 1 #for repeating
+#Main execution functions------------------------------------
 #* random picker into local names stored
 def pickMatchup( lane, totalLanes = 1 ): 
     global blue_one, blue_two, red_one, red_two
@@ -41,7 +46,7 @@ def pickMatchup( lane, totalLanes = 1 ):
         red_two = secrets.choice(allChamps)
         print(blue_one, " and ", blue_two, " X ", red_one, " and ", red_two, "?")
         statsOpener(lane)
-    elif lane.lower() in ["5v5", "full team"]:          #*Full team generation
+    elif lane in ["5v5", "full team"]:          #*Full team generation
         blue_one_top = secrets.choice(allChamps)
         blue_two_jg = secrets.choice(allChamps)
         blue_thr_mid = secrets.choice(allChamps)
@@ -53,13 +58,14 @@ def pickMatchup( lane, totalLanes = 1 ):
         red_thr_mid = secrets.choice(allChamps)
         red_four_bot = secrets.choice(allChamps)
         red_fiv_bot = secrets.choice(allChamps)
-        print(f"\nTOP: {blue_one_top} X {red_one_top}? \
+        print(f"TOP: {blue_one_top} X {red_one_top}? \
                 \nJUNGLE: {blue_two_jg} X {red_two_jg}? \
                 \nMIDDLE: {blue_thr_mid} X {red_thr_mid}? \
                 \nBOTTOM and SUPPORT: {blue_four_bot} and {blue_fiv_bot} X {red_four_bot} and {red_fiv_bot}?\n")
-        global iterationCounter;
+        
     
     #To repeat operations
+    global iterationCounter;
     if lane in ["bot", "top", "mid", "jungle"]:  #to iterate more than one time, use only a single lane.
         while iterationCounter < totalLanes :
             iterationCounter += 1
@@ -73,20 +79,21 @@ def pickMatchup( lane, totalLanes = 1 ):
                 iterationCounter += 1
                 pickMatchup("5v5")
     else:
-        print("Invalid lane option in pickMatchup()! \nCODE_3")
+        print("Invalid lane option in pickMatchup()! \nCode 3")
         return "Code 3"
     #!don't matter the exception, one iteration will ocurr always.
 
 #*: Open realtime stats in OP.GG website
-inpOpemBrowser = undefined;
+browser = None;
 def statsOpener(laneToCompare):
     print("")
+    global browser
 
-    if inpOpenBrowser == undefined: #if undefined, grab the desired.
-        inpOpenBrowser = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
-
+    inpOpenBrowser = input("Do you wanna open OP.GG stats? (Y/N): ").upper()
     if inpOpenBrowser == 'Y' :
-        browser = input("Type the name of your browser: ") #! should check valid typing
+        if browser == None: #*if undefined, grab the desired.
+            browser = input("Type the name of your browser: ") #! should check valid typing
+        
         if laneToCompare in ["top", "mid", "jungle"]:
             print("Opening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneToCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
@@ -99,23 +106,26 @@ def statsOpener(laneToCompare):
         
         print("")
     elif inpOpenBrowser == "N" :
-        print("ok, proceeding...")
+        print("ok, proceeding..."); time.sleep(0.2)
     else: 
         raise Exception("Invalid option in statsOpener! Code 4")
 
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
 print("Inputting a blank space in the lane section or a \"0\" in the repetition section will stop the execution."); time.sleep(1)
 
+#*main execution treatment--------------------------
 while True:
+    iterationCounter = 1 #for repeating
+
     print("**********************")
     inpLane = input("Which lane do you desire to try?: ")
     inpNumReps = int(input("How many times do you wan't to repeat it?: "))
 
-    #formatting to ideal
+    #formatting the entry
     if inpLane == "jg": inpLane = "jungle";
     inpLane.strip().lower();
 
-    #Ending =========================================
+    #Ending=========================================
     for entry in (inpLane, str(inpNumReps)):
         if entry.isspace() == True:
             print("")
@@ -124,7 +134,7 @@ while True:
         
     if "0" in [inpLane, str(inpNumReps)]:
         print("")
-        print("Program stopped by user. Goodbye! \nCode 0"); 
+        print("Program stopped by user. Goodbye! \nCode 0")
         break;
     else:   #*don't want to exit? ok, continues.
         pickMatchup(inpLane, inpNumReps)
