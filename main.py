@@ -15,7 +15,7 @@ os.system("TITLE Matchup Picker For LoL")
 
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
-#print("Starting in 7 seconds..."); time.sleep(7)
+print("Starting in 7 seconds..."); time.sleep(7)
 
 clearConsole()
 time.sleep(0.3)
@@ -46,7 +46,7 @@ def pickMatchup( lane, totalLanes = 1 ):
         red_two = secrets.choice(allChamps)
         print(blue_one, " and ", blue_two, " X ", red_one, " and ", red_two, "?")
         statsOpener(lane)
-    elif lane in ["5v5", "full team"]:          #*Full team generation
+    elif lane.lower() in ["5v5", "full team"]:          #*Full team generation
         blue_one_top = secrets.choice(allChamps)
         blue_two_jg = secrets.choice(allChamps)
         blue_thr_mid = secrets.choice(allChamps)
@@ -79,7 +79,7 @@ def pickMatchup( lane, totalLanes = 1 ):
                 iterationCounter += 1
                 pickMatchup("5v5")
     else:
-        print("Invalid lane option in pickMatchup()! \nCode 3")
+        print("Invalid option of Lane! Choose a valid lane(Top, Mid, Bot or Full Team/5v5) \nCode 3")  #!ele executa primeiro a função e depois checa se a lane é válida?
         return "Code 3"
     #!don't matter the exception, one iteration will ocurr always.
 
@@ -113,7 +113,7 @@ def statsOpener(laneToCompare):
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
 print("Inputting a blank space in the lane section or a \"0\" in the repetition section will stop the execution."); time.sleep(1)
 
-#*main execution treatment--------------------------
+#*main execution--------------------------
 while True:
     iterationCounter = 1 #for repeating
 
