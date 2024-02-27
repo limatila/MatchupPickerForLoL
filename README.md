@@ -30,3 +30,5 @@ Additionally, a way of opening Real Worlds stats will show up in every Matchup, 
 Type 'Y'/'N' (or 'Yes'/'No') to choose if you wan't to open the stats in your browser.
 If 'Yes', you need to input your browser of choice to be opened. Just type the shortened browser name("chrome", "opera", "firefox"), and it will open automatically in 2 seconds.
 - The selected browser will be the default for the rest of the program's execution.
+
+If you desire to clean the console, if you find it messy, hit 'clear' in Lane selection! It will automatically cleanup your window for the next guess.
