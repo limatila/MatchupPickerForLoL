@@ -1,7 +1,7 @@
 # 1.1 a random matchuper for league of legends lane phase thinking training
 # Operated buy inputs in terminal.
 #! should be divided by Lanes
-#! names to change in browser opening: spaced names, wukong, chogath, 
+#! names to change in browser opening: spaced names, wukong, chogath, reksai
 
 import secrets
 import os
@@ -24,13 +24,12 @@ time.sleep(0.3)
 with open("./data/names.txt", 'r') as namesFile: #change path to correct source
     allChamps = namesFile.read().split(",") #! champions with spaces must be shortened.
 
-dividedChamps = {};
+dividedChamps = {}; #! how to divide the lanes?
 
 #Main execution functions------------------------------------
 #* random picker into local names stored
 def pickMatchup( lane, totalLanes = 1 ): 
     global blue_one, blue_two, red_one, red_two
-    print("")
 
     if lane in ["top", "mid", "jungle"]:                #*every other then botlane
         blue_one = secrets.choice(allChamps)
@@ -79,9 +78,8 @@ def pickMatchup( lane, totalLanes = 1 ):
                 iterationCounter += 1
                 pickMatchup("5v5")
     else:
-        print("Invalid option of Lane! Choose a valid lane(Top, Mid, Bot or Full Team/5v5) \nCode 3")  #!ele executa primeiro a função e depois checa se a lane é válida?
+        print("Invalid option of Lane! Choose a valid lane(Top, Mid, Bot or Full Team/5v5) \nCode 3")
         return "Code 3"
-    #!don't matter the exception, one iteration will ocurr always.
 
 #*: Open realtime stats in OP.GG website
 browser = None;
@@ -95,39 +93,46 @@ def statsOpener(laneToCompare):
             browser = input("Type the name of your browser: ") #! should check valid typing
         
         if laneToCompare in ["top", "mid", "jungle"]:
-            print("Opening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
+            print("\nOpening browser in 2 seconds..."); time.sleep(2.5); #!tudu: if error, should try inserting again 
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/{laneToCompare}?region=global&tier=diamond_plus&target_champion={red_one}\"")
-            print("browser opened! next guess...")
+            print("browser opened! proceeding...")
         elif laneToCompare == "bot":
-            print("Opening two browsers in 2 seconds..."); time.sleep(2.5); #? maybe select what region would be too slow
+            print("\nOpening two browsers in 2 seconds..."); time.sleep(2.5); #? maybe select what region would be too slow
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_one}/build/bot?region=global&tier=diamond_plus&target_champion={red_one}\"")
             os.system(f"start {browser} \"https://www.op.gg/champions/{blue_two}/build/support?region=global&tier=diamond_plus&target_champion={red_two}\"")
-            print("browser opened! next guess...")
+            print("browser opened! proceeding...")
         
         print("")
     elif inpOpenBrowser == "N" :
-        print("ok, proceeding..."); time.sleep(0.2)
+        print("ok, proceeding..."); time.sleep(0.3)
     else: 
         raise Exception("Invalid option in statsOpener! Code 4")
 
 print("Insert bellow some infos to begin the your code execution."); time.sleep(1)
 print("Inputting a blank space in the lane section or a \"0\" in the repetition section will stop the execution."); time.sleep(1)
+print("----------------------")
 
-#*main execution--------------------------
+
 while True:
     iterationCounter = 1 #for repeating
 
-    print("**********************")
     inpLane = input("Which lane do you desire to try?: ")
-    inpNumReps = int(input("How many times do you wan't to repeat it?: "))
+    #cleaning
+    if inpLane == "clear":
+        clearConsole()
+        print("Window cleaned.")
+        continue
+    else:    
+        inpNumReps = int(input("How many times do you wan't to repeat it?: "))
 
     #formatting the entry
-    if inpLane == "jg": inpLane = "jungle";
     inpLane.strip().lower();
+    if inpLane == "jg": inpLane = "jungle";
+
 
     #Ending=========================================
     for entry in (inpLane, str(inpNumReps)):
-        if entry.isspace() == True:
+        if entry.isspace() == True: #! Vai jogar uma exceção se spammar Enter.
             print("")
             print("Program stopped by user. Goodbye! \nCode 0")
             break;
@@ -137,5 +142,8 @@ while True:
         print("Program stopped by user. Goodbye! \nCode 0")
         break;
     else:   #*don't want to exit? ok, continues.
+        print("\nResults: \n")
         pickMatchup(inpLane, inpNumReps)
+        print("\n**********************")
     
+#main_exec()
