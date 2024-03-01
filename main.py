@@ -1,7 +1,7 @@
 # 1.1 a random matchuper for league of legends lane phase thinking training
 # Operated buy inputs in terminal.
 #! should be divided by Lanes
-#! names to change in browser opening: spaced names, wukong, chogath, reksai
+#! change special names in exibition
 
 import secrets
 import os
