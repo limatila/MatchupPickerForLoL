@@ -3,21 +3,20 @@ A random matchup League of Legends matchup picker to train your skills in matchu
 Via python console, select which lane to be predicted, "top", "mid", "jg", "bot", or "full team", and random picks will be shown to you to predict.
 Some real-world stats can be broughten and presented for each matchup, for you to compare and analyze if your guessings are going in the right direction!
 
-## Status: Yet to be finished, 
+## Status: Ideally Finished. 
 won't be giving it too much work, just a practicing project
-* champion lanes separation not finished
+* champion lanes separation finished
 * browser opening mostly done
 * repetition of randomizing added
-* EXE startup should be broughten in some time, to make it indenpendent of Python installation in the machine.
-
-- More updates on the way..
+* EXE startup in "MatchupPicker.exe"
 
 ---
 
 # How-to-use:
-To start the program correctly, execute 'startProgram.bat'. The names should be updated correctly, and the main program 'main.py' should be able to execute. Some fields are required to be answered to start randomizing the champions names. 
+To start the program correctly, execute 'startProgram.bat' or the main program 'main.py', for it to open a console with the program. 
 
-A first one will be the Lane in focus to have a Matchup randomized. 
+The program is operated by inputting fields, to select options in lane generation, among other functionalities,
+The first one will be the Lane in focus to have a Matchup randomized. 
 You can choose for Top, Mid, Bot, or Full Team\5v5 for all lanes at once.
 
 The second field will ask how many times should it generate new Matchup names in the Lane selected.
