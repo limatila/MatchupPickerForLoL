@@ -15,10 +15,10 @@ os.system("TITLE Matchup Picker For LoL")
 
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
-print("Starting in 7 seconds..."); time.sleep(7)
+print("Starting...")
 
 #Data--------------------------------------------------------
-dividedChamps = { #! divide lanes and store them here
+dividedChamps = { #divide lanes and store them here
     'top': [],
     'mid': [],
     'bot': [],
@@ -29,8 +29,8 @@ dividedChamps = { #! divide lanes and store them here
 files = ["bot.txt", "jungle.txt", "mid.txt", "sup.txt", "top.txt"]
 
 for filePath in files:
-    with open( ("data/" + filePath), 'r' ) as currentFile:
-        currentChamps = currentFile.read().split(",") #! porque está carregando apenas o último?
+    with open( ("data" + filePath), 'r' ) as currentFile: #!Files need to be uploaded for the server, and the browser need to download it.
+        currentChamps = currentFile.read().split(",")
 
         #separar extensão do nome
         currentFinalIndex = filePath.find(".txt")
