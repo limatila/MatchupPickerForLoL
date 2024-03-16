@@ -17,9 +17,6 @@ print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
 print("Starting in 7 seconds..."); time.sleep(7)
 
-clearConsole()
-time.sleep(0.3)
-
 #Data--------------------------------------------------------
 dividedChamps = { #! divide lanes and store them here
     'top': [],
@@ -32,7 +29,7 @@ dividedChamps = { #! divide lanes and store them here
 files = ["bot.txt", "jungle.txt", "mid.txt", "sup.txt", "top.txt"]
 
 for filePath in files:
-    with open( ("./data/" + filePath), 'r' ) as currentFile:
+    with open( ("data/" + filePath), 'r' ) as currentFile:
         currentChamps = currentFile.read().split(",") #! porque está carregando apenas o último?
 
         #separar extensão do nome
