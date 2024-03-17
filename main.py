@@ -7,18 +7,16 @@ import secrets
 import os
 import time
 def clearConsole():
-    os.system("CLS" if "nt" in os.name
-            else 'CLEAR') #'nt' = windows
+    os.system("cls" if "nt" in os.name
+            else 'clear') #'nt' = windows
     
 clearConsole()
-os.system("TITLE Matchup Picker For LoL")
+os.system("title Matchup Picker For LoL")
 
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
 print("Starting in 7 seconds..."); time.sleep(7)
 
-clearConsole()
-time.sleep(0.3)
 
 #Data--------------------------------------------------------
 dividedChamps = { #! divide lanes and store them here
