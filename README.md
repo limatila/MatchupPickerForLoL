@@ -31,3 +31,6 @@ If 'Yes', you need to input your browser of choice to be opened. Just type the s
 - The selected browser will be the default for the rest of the program's execution.
 
 If you desire to clean the console, if you find it messy, hit 'clear' in Lane selection! It will automatically cleanup your window for the next guess.
+
+---
+@ALB, 2024

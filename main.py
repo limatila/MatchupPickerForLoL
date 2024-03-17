@@ -19,7 +19,7 @@ print("Starting in 7 seconds..."); time.sleep(7)
 
 
 #Data--------------------------------------------------------
-dividedChamps = { #! divide lanes and store them here
+dividedChamps = { #divide lanes and store them here
     'top': [],
     'mid': [],
     'bot': [],
@@ -31,7 +31,7 @@ files = ["bot.txt", "jungle.txt", "mid.txt", "sup.txt", "top.txt"]
 
 for filePath in files:
     with open( ("./data/" + filePath), 'r' ) as currentFile:
-        currentChamps = currentFile.read().split(",") #! porque está carregando apenas o último?
+        currentChamps = currentFile.read().split(",")
 
         #separar extensão do nome
         currentFinalIndex = filePath.find(".txt")
