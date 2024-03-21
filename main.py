@@ -123,6 +123,7 @@ def statsOpener(laneToCompare):
     else: 
         raise Exception("Invalid option in statsOpener! Code 4")
 
+print("")
 print("Insert bellow some infos to begin the code execution."); time.sleep(1)
 print("Inputting a blank space in the lane section or a \"0\" in the repetition section will stop the execution."); time.sleep(1)
 print("----------------------")
