@@ -1,1 +1,1 @@
-start cmd /k python main.py    @REM if a error occurs, will just crash
+start cmd /k python "web/main.py"    @REM if a error occurs, will just crash
