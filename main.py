@@ -4,7 +4,7 @@
 #! change special names in exibition
 
 import secrets
-import os
+import os #!running in browser, should open with pyscript
 import time
 def clearConsole():
     os.system("cls" if "nt" in os.name
