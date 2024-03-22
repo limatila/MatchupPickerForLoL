@@ -11,13 +11,12 @@ def clearConsole():
             else 'clear') #'nt' = windows
     
 clearConsole()
-os.system("TITLE Matchup Picker For LoL")
+os.system("title Matchup Picker For LoL")
 
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
+print("Starting in 7 seconds..."); time.sleep(7)
 
-print("")
-print("Starting...")
 
 #Data--------------------------------------------------------
 dividedChamps = { #divide lanes and store them here
@@ -31,7 +30,7 @@ dividedChamps = { #divide lanes and store them here
 files = ["bot.txt", "jungle.txt", "mid.txt", "sup.txt", "top.txt"]
 
 for filePath in files:
-    with open( ("data/" + filePath), 'r' ) as currentFile: #!Files need to be uploaded for the server, and the browser need to download it.
+    with open( ("./data/" + filePath), 'r' ) as currentFile:
         currentChamps = currentFile.read().split(",")
 
         #separar extensão do nome
@@ -143,7 +142,7 @@ while True:
         inpNumReps = int(input("How many times do you wan't to repeat it?: "))
 
     #formatting the entry
-    inpLane.strip().lower(); #! Isso nao esta formatando para a linha 125
+    inpLane.strip().lower();
     if inpLane == "jg": inpLane = "jungle";
 
 
