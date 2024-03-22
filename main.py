@@ -15,7 +15,7 @@ os.system("title Matchup Picker For LoL")
 
 print("Welcome to this program made by Átila Lima")
 print("It'll randomly choose matchups from LoL, by names and roles"); time.sleep(2)
-print("Starting in 7 seconds..."); time.sleep(7)
+print("Starting...")
 
 
 #Data--------------------------------------------------------
@@ -30,7 +30,7 @@ dividedChamps = { #divide lanes and store them here
 files = ["bot.txt", "jungle.txt", "mid.txt", "sup.txt", "top.txt"]
 
 for filePath in files:
-    with open( ("./data/" + filePath), 'r' ) as currentFile:
+    with open( ("data/" + filePath), 'r' ) as currentFile: #!Files need to be uploaded to browser.
         currentChamps = currentFile.read().split(",")
 
         #separar extensão do nome
@@ -123,6 +123,7 @@ def statsOpener(laneToCompare):
     else: 
         raise Exception("Invalid option in statsOpener! Code 4")
 
+print("")
 print("Insert bellow some infos to begin the code execution."); time.sleep(1)
 print("Inputting a blank space in the lane section or a \"0\" in the repetition section will stop the execution."); time.sleep(1)
 print("----------------------")
@@ -142,7 +143,7 @@ while True:
         inpNumReps = int(input("How many times do you wan't to repeat it?: "))
 
     #formatting the entry
-    inpLane.strip().lower();
+    inpLane.strip().lower(); #!Isso não esta formatando para a linha 125
     if inpLane == "jg": inpLane = "jungle";
 
 
