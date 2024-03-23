@@ -30,7 +30,7 @@ dividedChamps = { #divide lanes and store them here
 files = ["bot.txt", "jungle.txt", "mid.txt", "sup.txt", "top.txt"]
 
 for filePath in files:
-    with open( ("data/" + filePath), 'r' ) as currentFile: #!Files need to be uploaded to browser.
+    with open( ("../data/" + filePath), 'r' ) as currentFile: #!Files need to be uploaded to browser.
         currentChamps = currentFile.read().split(",")
 
         #separar extensão do nome
