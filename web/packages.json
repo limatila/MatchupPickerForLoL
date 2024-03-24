@@ -1,4 +1,12 @@
 {
+    
     "packages": ["secrets", "time"]
-
+    "files":{
+        "https://github.com/limatila/MatchupPickerForLoL/blob/main/data/bot.txt": "../data/bot.txt",
+        "https://github.com/limatila/MatchupPickerForLoL/blob/main/data/jungle.txt": "../data/jungle.txt",
+        "../data/mid.txt": "../data/mid.txt",
+        "../data/sup.txt": "../data/sup.txt",
+        "../data/top.txt": "../data/top.txt"
+    }
+    
 }
