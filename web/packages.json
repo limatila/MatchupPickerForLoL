@@ -2,7 +2,7 @@
     
     "packages": ["secrets", "time"],
     "files":{
-        "../data/bot.txt": "../data/bot.txt",
+        "./bot.txt": "./bot.txt",
         "../data/jungle.txt": "../data/jungle.txt",
         "../data/mid.txt": "../data/mid.txt",
         "../data/sup.txt": "../data/sup.txt",
