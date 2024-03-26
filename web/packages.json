@@ -1,4 +1,12 @@
 {
-    "packages": ["secrets", "time"]
-
+    
+    "packages": ["secrets", "time"],
+    "files":{
+        "../data/bot.txt": "../data/bot.txt",
+        "../data/jungle.txt": "../data/jungle.txt",
+        "../data/mid.txt": "../data/mid.txt",
+        "../data/sup.txt": "../data/sup.txt",
+        "../data/top.txt": "../data/top.txt"
+    }
+    
 }
